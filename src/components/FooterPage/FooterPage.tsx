@@ -44,7 +44,7 @@ export const FooterPage = () => {
 
                 </section>
                 <section className="container-footer-dispositivos">
-                    <header className="logo-dispositivo">Quantum<span className='oscuro-logo'> System</span> ™</header>
+                    <header className="logo-dispositivo">Calcular<span className='oscuro-logo'> AI</span> ™</header>
                     <ul className={` submenu-footer-dispositivo `}>
                         <li><Link to='/terminos-condiciones'   > Términos y Condiciones</Link></li>
                         <li><a target='_blank' className='link' href="https://wa.me/5491133550437?text=Hola,%20quiero%20hablar%20contigo">Whatsapp</a></li>
