@@ -1,7 +1,7 @@
 import './Inicio.css';
 import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import presentacionSitio from '../../assets/presentacion/presentacion-quantum-mejorado.webp'
+import presentacionSitio from '../../assets/presentacion/presentacion-calcular AI.webp'
 import arca from '../../assets/brands/arca-brand1.webp'
 import bcra from '../../assets/brands/bcra-actualizada-400x400.webp'
 import logoCalcularAI from '../../assets/presentacion/calcularAI-logo-mejorado.webp'
