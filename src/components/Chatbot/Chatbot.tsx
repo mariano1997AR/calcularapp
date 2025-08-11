@@ -86,7 +86,7 @@ export const Chatbot = ({setMostrarChatbot}:{setMostrarChatbot:(c:boolean) => vo
                         setVisible(true)
                         setMostrarChatbot(true)
                     }}
-                    className=" btn-bot  sm:bottom-10 md:bottom-6 sm:right-6 w-[18vw] sm:w-20 py-3 pb-3 px-3    max-h-[80vh] sm:max-h-[600px] flex flex-col  "
+                    className=" btn-bot  sm:bottom-10 md:bottom-6 sm:right-6 w-[18vw] sm:w-20 py-3 pb-3 px-3     flex flex-col  "
                 >
                     <section className={`borde-exterior-icon `}>
                         <section className="icon-robot" >
@@ -151,7 +151,7 @@ export const Chatbot = ({setMostrarChatbot}:{setMostrarChatbot:(c:boolean) => vo
                 </section>
 
                 {/* Mensajes */}
-                <div className="flex-1 overflow-auto p-4 space-y-2 bg-gray-50 max-h-[900px]" >
+                <div className="flex-1 overflow-auto p-4 space-y-2 bg-gray-50 " >
                     {messages.map((m, i) => (
                         <div
                             key={i}
