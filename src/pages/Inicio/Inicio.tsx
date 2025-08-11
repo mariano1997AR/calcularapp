@@ -599,7 +599,7 @@ export const Inicio = () => {
                                     </svg>
                                 </article>
                                 <article className='item-info-svg'>
-                                    <h4 className='text-center subtitulo-preguntas'>¿Mis datos están segudos?</h4>
+                                    <h4 className='text-center subtitulo-preguntas'>¿Mis datos están seguros?</h4>
                                     <p className='parrafo-preguntas-frecuentes'>
                                         Sí. Cumplimos con políticas de privacidad estrictas y utilizamos cifrado avanzado para proteger la información 
                                         de nuestros clientes. No se guarda ningun dato dentro del sitio.
