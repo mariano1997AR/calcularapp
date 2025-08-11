@@ -1,0 +1,25 @@
+.container-calendario{
+    display: flex;
+    flex-direction: row;
+     max-width: 1800px;
+    margin: 0 auto;
+}
+
+.flex-left-item-informacion-calendario{
+    flex: 50%;
+    padding: 10px;
+   
+}
+.flex-right-item-calendario{
+    flex: 50%;
+}
+
+  .oscuro-logo{
+    color:#A27B5C ;
+}
+
+@media (max-width: 1060px) {
+  .container-calendario {
+    flex-direction: column;
+  }
+}

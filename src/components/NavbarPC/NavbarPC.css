@@ -1,0 +1,104 @@
+/* empieza el menu en modo PC de escritorio*/
+.menu-links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-links li {
+
+    margin-top: -30px;
+    margin-left: 10px;
+    list-style: none;
+    text-align: center;
+
+}
+
+.menu-links li .a {
+    color: #222831;
+}
+
+.menu-links .a {
+    list-style: none;
+    text-decoration: none;
+    transition: all 1s;
+
+
+}
+
+.item-link-menu {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+.aparece-PC {
+    display: flex;
+}
+
+.aparecer-responsive {
+    display: none;
+}
+
+@media (max-width: 798px) {
+    .logo {
+        display: none;
+    }
+
+    .aparecer-responsive {
+        display: block;
+    }
+
+
+    .desaparece-dispositivo {
+        display: none;
+    }
+
+    .nav-links-responsive-aparece {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+
+
+    }
+
+    .nav-links-responsive-aparece li {
+
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+
+    }
+
+    .nav-links-responsive-aparece .li-responsive:hover {
+        transition: all 1s;
+        padding-left: 50px;
+        font-weight: bold;
+        border-radius: 10px;
+
+    }
+
+    .link-responsives {
+        text-decoration: none;
+    }
+
+
+    .switch {
+        margin: 0 auto;
+    }
+
+    .logo-desaparecer {
+        display: flex;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo-desaparecer .a {
+        text-decoration: none;
+    }
+
+
+
+
+
+}
