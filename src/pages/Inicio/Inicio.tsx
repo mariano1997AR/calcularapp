@@ -201,7 +201,7 @@ export const Inicio = () => {
                 <section className='container-sector-mas-caracteristicas' >
                     <article className='subtitulo-mas-funcionalidades'>
                         <h4 className='text-center py-2 subtitulo-mas-funcionalidades oscuro-logo' ><b>Características comerciales y de atención al cliente</b></h4>
-                        <p className='text-center parrafo-mas-funcionalidades'><strong>Quamtum System</strong> es la solución a tu proyecto u idea de aplicación para tu negocio </p>
+                        <p className='text-center parrafo-mas-funcionalidades'><strong>Calcular AI</strong> es la solución que necesitas para tu negocio </p>
                     </article>
 
                     <article className='container-card-caracteristica py-6 mas-funcionalidad-card'>
