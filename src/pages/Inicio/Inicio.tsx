@@ -746,7 +746,7 @@ export const Inicio = () => {
                                     </section>
                                 </section>
                             </article>
-                            <article className='item-flex-right-informacion-empresa'>
+                            <article className='item-flex-right-informacion-empresa mx-2'>
                                 <p>
                                     En <strong>Calcular AI </strong> somos una empresa dedicada al estudio contable para organizaciones y Autónomos.
                                     Nuestro compromiso es ofrecer soluciones rápidas, eficientes y duraderas para que todo funcione como debe.
