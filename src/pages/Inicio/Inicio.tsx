@@ -1,7 +1,7 @@
 import './Inicio.css';
 import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import presentacionSitio from '../../assets/presentacion/presentacion-calcular AI.webp'
+import presentacionSitio from '../../assets/presentacion/presentacion-calcularAI-2.webp'
 import arca from '../../assets/brands/arca-brand1.webp'
 import bcra from '../../assets/brands/bcra-actualizada-400x400.webp'
 import logoCalcularAI from '../../assets/presentacion/calcularAI-logo-mejorado.webp'
@@ -94,7 +94,7 @@ export const Inicio = () => {
                         className="img-presentacion-sitio"
                         loading="lazy"
                     />
-                    <article className="texto-centrado">
+                    <article className="texto-centrado py-3">
                         <h1 className="text-center titulo-presentacionsitio">Gestión contable digital, a un clic de distancia. </h1>
                         <p className="text-center parrafo-presentacionsitio">
                             {fraseActual}
