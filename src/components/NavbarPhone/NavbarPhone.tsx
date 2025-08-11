@@ -35,6 +35,7 @@ export const NavbarPhone = () => {
 
                 <ul className="menu py-1" >
                     <li><a href="#caracteristicas" className='a'>Caracteristicas</a></li>
+                    <li><a href="#asistente-virtual" className='a'>Asistente</a></li>
 
                     <li className="dropdown dropend">
                         <button type="button" className="btn  btn-herramientas-toggle dropdown-toggle" data-bs-toggle="dropdown">
