@@ -17,7 +17,7 @@ export const Agendar = () => {
                     <article>
                         <h1 className="text-3xl font-bold mb-6 text-center oscuro-logo">Reservá una reunion</h1>
                         <p className="py-3 text-2xl">
-                            Hola, ¿cómo estás? Te habla Mariano Andres Martinotti de Quantum System
+                            Hola, ¿cómo estás? Te habla Mariano Andres Martinotti de <strong>Calcular AI</strong>
                         </p>
                         <p className="py-3 text-2xl">
                             Somos una empresa especializada en ayudar a personas, pymes y empresas a gestionar, registrar y analizar su información financiera y fiscal, cumpliendo con las leyes y optimizando la administración del negocio.

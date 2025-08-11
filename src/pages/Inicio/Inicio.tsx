@@ -539,8 +539,11 @@ export const Inicio = () => {
                                     </svg>
                                 </article>
                                 <article className='item-info-svg'>
-                                    <h4 className='text-center subtitulo-preguntas'>¿¿Qué tipo de mantenimiento ofrecen?</h4>
-                                    <p className='parrafo-preguntas-frecuentes'>Ofrecemos mantenimiento preventivo, correctivo y de urgencia para hogares, oficinas y comercios..</p>
+                                    <h4 className='text-center subtitulo-preguntas'>¿Qué diferencia a su estudio contable de uno tradicional</h4>
+                                    <p className='parrafo-preguntas-frecuentes'>
+                                         Utilizamos inteligencia artificial para automatizar cálculos, detectar errores y generar reportes más precisos y 
+                                         rápidos, permitiéndote tomar mejores decisiones.
+                                    </p>
                                 </article>
 
                             </section>
@@ -566,8 +569,11 @@ export const Inicio = () => {
                                     </svg>
                                 </article>
                                 <article className='item-info-svg'>
-                                    <h4 className='text-center subtitulo-preguntas'>¿Trabajan con empresas o solo particulares?</h4>
-                                    <p className='parrafo-preguntas-frecuentes'>Trabajamos con ambos. Tenemos planes mensuales para empresas y servicios por pedido para particulares. </p>
+                                    <h4 className='text-center subtitulo-preguntas'>¿La IA reemplaza al contador?</h4>
+                                    <p className='parrafo-preguntas-frecuentes'>
+                                        No. La IA es una herramienta que potencia nuestro trabajo, pero el análisis, interpretación y asesoramiento 
+                                        sigue siendo 100% humano y personalizado. 
+                                    </p>
                                 </article>
                             </section>
                         </article>
@@ -593,8 +599,11 @@ export const Inicio = () => {
                                     </svg>
                                 </article>
                                 <article className='item-info-svg'>
-                                    <h4 className='text-center subtitulo-preguntas'>¿Atienden urgencias?</h4>
-                                    <p className='parrafo-preguntas-frecuentes'>Sí, contamos con atención de urgencias técnicas. Consultá disponibilidad por WhatsApp.</p>
+                                    <h4 className='text-center subtitulo-preguntas'>¿Mis datos están segudos?</h4>
+                                    <p className='parrafo-preguntas-frecuentes'>
+                                        Sí. Cumplimos con políticas de privacidad estrictas y utilizamos cifrado avanzado para proteger la información 
+                                        de nuestros clientes. No se guarda ningun dato dentro del sitio.
+                                    </p>
                                 </article>
                             </section>
                         </article>
@@ -618,8 +627,10 @@ export const Inicio = () => {
                                     </svg>
                                 </article>
                                 <article className='item-info-svg'>
-                                    <h4 className='text-center subtitulo-preguntas'>¿Qué zonas cubren?</h4>
-                                    <p className='parrafo-preguntas-frecuentes'>Trabajamos en Ciudad Autonoma de Buenos Aires y alrededores. Si estás fuera del radio, consultanos. </p>
+                                    <h4 className='text-center subtitulo-preguntas'>¿Pueden trabajar con empresas y autónomos?</h4>
+                                    <p className='parrafo-preguntas-frecuentes'>
+                                         Sí. Ofrecemos soluciones adaptadas a PYMEs, profesionales independientes y emprendedores.
+                                    </p>
                                 </article>
                             </section>
                         </article>
@@ -648,8 +659,10 @@ export const Inicio = () => {
                                     </svg>
                                 </article>
                                 <article className='item-info-svg'>
-                                    <h4 className='text-center subtitulo-preguntas'>¿Cómo se puede pagar?</h4>
-                                    <p className='parrafo-preguntas-frecuentes'>Aceptamos efectivo, transferencia, Mercado Pago y tarjetas</p>
+                                    <h4 className='text-center subtitulo-preguntas'>¿Cómo puedo empezar a trabajar con ustedes?</h4>
+                                    <p className='parrafo-preguntas-frecuentes'>
+                                        Podés agendar una reunión virtual o presencial, enviarnos tu consulta por WhatsApp.
+                                    </p>
                                 </article>
                             </section>
                         </article>
@@ -673,8 +686,10 @@ export const Inicio = () => {
                                     </svg>
                                 </article>
                                 <article className='item-info-svg'>
-                                    <h4 className='text-center subtitulo-preguntas'>¿Tienen garantía?</h4>
-                                    <p className='parrafo-preguntas-frecuentes'>Sí, todos nuestros trabajos tienen garantía según el tipo de servicio realizado. </p>
+                                    <h4 className='text-center subtitulo-preguntas'>¿Trabajan de forma remota?</h4>
+                                    <p className='parrafo-preguntas-frecuentes'>
+                                        Sí. Gestionamos todo de manera digital para que no tengas que moverte de tu oficina u hogar.
+                                    </p>
                                 </article>
                             </section>
                         </article>
