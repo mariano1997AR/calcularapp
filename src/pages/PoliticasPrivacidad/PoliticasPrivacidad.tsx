@@ -10,7 +10,7 @@ export const PoliticasPrivacidad = () => {
     return (
         <>
 
-            <Title>Politicas de Privacidad | Quantum System</Title>
+            <Title>Politicas de Privacidad | Calcular AI</Title>
             <Meta name="description" content="Politicas de privacidad para los clientes de tensiora automatic por los servicios prestados." />
             <section className="container-politica-privacidad" >
                 <section className='container-politicas'>
@@ -18,7 +18,7 @@ export const PoliticasPrivacidad = () => {
                         <p className='terminos-privacidad text-center'><u>POLITICAS DE PRIVACIDAD</u></p>
                         <p className='pb-3'><b>Última actualizacion:</b> {day}/{month}/{year}</p>
                         <p>
-                            En Quantum, nos comprometemos a proteger la privacidad y la seguridad de la información personal de nuestros clientes, visitantes y usuarios. Esta política explica cómo recopilamos, utilizamos y protegemos sus datos.
+                            En Calcular AI, nos comprometemos a proteger la privacidad y la seguridad de la información personal de nuestros clientes, visitantes y usuarios. Esta política explica cómo recopilamos, utilizamos y protegemos sus datos.
                         </p>
                     </article>
                     <article className='pb-3 py-3'>

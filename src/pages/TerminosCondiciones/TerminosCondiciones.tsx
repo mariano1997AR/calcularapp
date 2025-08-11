@@ -9,18 +9,18 @@ export const TerminosCondiciones = () => {
     const year = today.getFullYear();
     return (
         <>
-            <Title>Términos y condiciones | Tensiora Automatic</Title>
+            <Title>Términos y condiciones | Calcular AI</Title>
             <Meta name="description" content="Términos y condiciones de uso para los clientes de tensiora automatic por los servicios prestados." />
             <section className="container-politica-privacidad" >
                 <section className='container-politicas'>
                     <article className='terminos-condiciones'>
                         <p className='terminos-privacidad text-center'><u>TÉRMINOS Y CONDICIONES DE USO</u></p>
                         <p className='pb-3'><b>Última actualizacion:</b> {day}/{month}/{year}</p>
-                        <p>Bienvenido/a a Mantech Soluciones. Al utilizar nuestros servicios, aceptás los siguientes términos y condiciones. Por favor, leé atentamente esta información.</p>
+                        <p>Bienvenido/a a Calcular AI. Al utilizar nuestros servicios, aceptás los siguientes términos y condiciones. Por favor, leé atentamente esta información.</p>
                     </article>
                     <article className='pb-3 py-3'>
                         <p><b>1. Sobre la empresa</b></p>
-                        <p> <strong>Mantech Soluciones</strong> es una empresa dedicada a brindar servicios de mantenimiento preventivo, correctivo y técnico para hogares, oficinas y empresas. Nos comprometemos a ofrecer un servicio profesional, eficiente y seguro.
+                        <p> <strong>Calcular AI</strong> es una empresa dedicada a brindar servicios de mantenimiento preventivo, correctivo y técnico para hogares, oficinas y empresas. Nos comprometemos a ofrecer un servicio profesional, eficiente y seguro.
                         </p>
                     </article>
                     <article className='pb-3'>
