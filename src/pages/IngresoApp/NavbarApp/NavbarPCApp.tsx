@@ -1,26 +1,12 @@
-import './NavbarPC.css';
-import { Link } from 'react-router-dom';
-import { useState } from 'react';
-import { Chatbot } from '../Chatbot/Chatbot';
 
 
-export const NavbarPC = () => {
-    const [visibleChatbot, setMostrarChatbot] = useState<boolean>(false); //visible 
+
+export const NavbarPCApp = () => {
     return (
         <>
             <ul className="menu-links desaparece-dispositivo aparece-PC">
-
-                <li className='linea-bottom py-1 mx-3 flex-center'>
-                   
-                    <a href="#chatbot" className='btn' onClick={() => setMostrarChatbot(visibleChatbot)}>
-                       
-                        <Chatbot setMostrarChatbot={setMostrarChatbot} />
-                           <span className="tooltip-btn">¡Habla conmigo!</span>
-                    </a>
-                </li>
-
                 <li className="linea-bottom py-1 mx-3"><a href="#caracteristicas" className='a'>Caracteristicas</a></li>
-
+                <li className='linea-bottom py-1 mx-3'><a href="#asistente-virtual" className='a'>Asistente Virtual</a></li>
                 <li className="nav-item dropdown mx-3">
                     <a className="nav-link dropdown-toggle mb-2 py-1" role="button" data-bs-toggle="dropdown">Contacto</a>
                     <ul className="dropdown-menu mt-4">
@@ -31,11 +17,10 @@ export const NavbarPC = () => {
 
                 </li>
                 <li className="linea-bottom py-1 mx-3"><a href="#servicios" className='a'>Servicios</a></li>
-                <li className="linea-bottom py-1 mx-3"><Link to='/agendar' className="a" >Agendar</Link></li>
+
 
 
             </ul>
-
 
         </>
     )

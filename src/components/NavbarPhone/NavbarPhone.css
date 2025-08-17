@@ -40,6 +40,10 @@
 
 
 
+
+
+
+
 /* Versión móvil */
 @media (max-width: 798px) {
 
@@ -113,6 +117,21 @@
 
         margin-right: 5px;
 
+    }
+
+    .btn {
+        margin-top: -2px;
+        margin-left: -10px;
+        margin-bottom: -25px;
+    }
+
+    .tooltip-btn {
+   
+  
+        margin-top: -10px;
+     
+        padding-top:-5px;
+       
     }
 
 

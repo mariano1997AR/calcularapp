@@ -52,7 +52,11 @@ export const FooterPage = () => {
 
                     </ul>
                 </section>
-                <WhatsappFlotante />  
+                    {/*vamos hacia abajo para abrir el chatbot */}  
+                <span id='chatbot'></span>
+                <WhatsappFlotante />
+
+            
              
 
             </footer>

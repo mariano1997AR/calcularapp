@@ -59,7 +59,7 @@ export const Contacto = () => {
 
     return (
         <>
-            <section className="flex-container-contacto" >
+            <section className="flex-container-contacto " >
                 <section className="flex-item-left-contacto"   >
                     <h1 className='titulo-contacto ' >Contactanos para mas  <span className='mx-2' >información!</span></h1>
                 </section>

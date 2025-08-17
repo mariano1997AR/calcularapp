@@ -7,6 +7,7 @@ import { Inicio } from './pages/Inicio/Inicio.tsx'
 import { Agendar } from './pages/Agendar/Agendar.tsx'
 import { TerminosCondiciones } from './pages/TerminosCondiciones/TerminosCondiciones.tsx'
 import { PoliticasPrivacidad } from './pages/PoliticasPrivacidad/PoliticasPrivacidad.tsx'
+import { Ingreso } from './pages/IngresoApp/Ingreso.tsx'
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {path:'politicas-privacidad',element:<PoliticasPrivacidad />},
      ]
 
+  },
+  {
+    path:'/ingreso',
+    element:<Ingreso />
   }
 ],{
   basename:'/calcularai/'

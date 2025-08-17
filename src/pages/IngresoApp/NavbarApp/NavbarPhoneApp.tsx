@@ -1,14 +1,11 @@
-import './NavbarPhone.css';
-import { Link } from 'react-router-dom';
-import { useState } from 'react';
-import { Chatbot } from '../Chatbot/Chatbot';
+import { Link } from "react-router-dom"
 
 
-export const NavbarPhone = () => {
-    const [visibleChatbot, setMostrarChatbot] = useState<boolean>(false); //visible 
-    return (
+
+export const NavbarPhoneApp = () => {
+    return(
         <>
-            <nav className="menu-container">
+           <nav className="menu-container">
 
                 <section className='logo-responsive items-center gap-2'>
 
@@ -28,11 +25,6 @@ export const NavbarPhone = () => {
                             <path d="M2432 3019 c-72 -28 -144 -101 -172 -176 -29 -78 -25 -206 9 -272 99 -190 369 -232 521 -81 62 63 90 134 90 230 0 190 -132 321 -323 319 -47 0 -90 -7 -125 -20z m206 -169 c130 -79 74 -280 -78 -280 -85 0 -150 65 -150 150 0 54 27 102 72 130 20 12 51 20 78 20 27 0 58 -8 78 -20z" />
                         </g>
                     </svg>
-
-                    <a href="#chatbot" className='btn' onClick={() => setMostrarChatbot(visibleChatbot)}>
-                        <Chatbot setMostrarChatbot={setMostrarChatbot} />
-                        <span className="tooltip-btn">¡Habla conmigo!</span>
-                    </a>
 
 
                 </section>
@@ -60,7 +52,6 @@ export const NavbarPhone = () => {
                 </ul>
 
             </nav>
-
         </>
     )
 }

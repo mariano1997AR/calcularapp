@@ -10,7 +10,7 @@ import mistralAI from '../../assets/brands/MistralAI-400x400.webp';
 import excelLogo from '../../assets/brands/excel-logo-400x400.webp';
 import { Contacto } from '../Contacto/Contacto';
 import { Title, Meta } from 'react-head';
-import { Chatbot } from '../../components/Chatbot/Chatbot';
+
 
 
 const frases = [
@@ -39,7 +39,7 @@ export const Inicio = () => {
     const ref = useRef<HTMLDivElement>(null);
     const [visible, setVisible] = useState<boolean>(false);
     const carouselRef = useRef<any>(null);
-    const [visibleChatbot, setMostrarChatbot] = useState<boolean>(false); //visible 
+ 
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -89,7 +89,7 @@ export const Inicio = () => {
             <Meta property='og:type' content='website' />
             <main className='container-inicio'>
                 {/* Presentacion del sitio web */}
-                {!visibleChatbot && (
+               
                     <section className="container-presentacion-inicio  desaparecer-phone">
                         <img
                             src={presentacionSitio}
@@ -105,7 +105,7 @@ export const Inicio = () => {
 
                         </article>
                     </section>
-                )}
+              
 
                 {/* caracteristicas principales de calcular AI */}
 
@@ -207,7 +207,7 @@ export const Inicio = () => {
 
 
                 {/* caracteristicas extensivas  */}
-                {!visibleChatbot && (
+               
                     <section className='container-sector-mas-caracteristicas' >
                         <article className='subtitulo-mas-funcionalidades'>
                             <h4 className='text-center py-2 subtitulo-mas-funcionalidades oscuro-logo' ><b>Características comerciales y de atención al cliente</b></h4>
@@ -296,10 +296,10 @@ export const Inicio = () => {
 
                         </article>
                     </section>
-                )}
+              
 
                 {/* sector de servicios */}
-                {!visibleChatbot && (
+                
                     <section >
                         <article id='servicios'>
                             <h2 className='text-center oscuro-logo'>Servicios</h2>
@@ -523,11 +523,11 @@ export const Inicio = () => {
 
                         </section>
                     </section>
-                )}
+                
 
 
                 {/* sector de preguntas frecuentes */}
-                {!visibleChatbot && (
+               
                     <section>
                         <article>
                             <h4 className='text-center py-4 subtitulo-preguntas-frecuentes oscuro-logo'>Preguntas frecuentes (FAQ)</h4>
@@ -709,11 +709,10 @@ export const Inicio = () => {
                             </article>
                         </section>
                     </section>
-                )}
-
+            
                 {/* sector de marcas con que se trabaja */}
 
-                {!visibleChatbot && (
+         
                     <section className='carousel-container-brand'>
                         <section className='carousel-track' ref={carouselRef}>
                             {[...brands, ...brands].map((brand, index) => (
@@ -721,11 +720,11 @@ export const Inicio = () => {
                             ))}
                         </section>
                     </section>
-                )}
+             
 
 
                 {/* sector de nosotros  */}
-                {!visibleChatbot && (
+               
                     <section className='py-5' id='contacto-nosotros'>
                         <h4 className='text-center'>Nosotros</h4>
                         <section className='container-nosotros-marca'>
@@ -770,25 +769,17 @@ export const Inicio = () => {
                             </article>
                         </section>
                     </section>
-                )}
+              
 
                 {/* sector de contacto  */}
-                {!visibleChatbot && (
+             
                     <section className='py-5' id='contacto-contactar'>
                         <h4 className='text-center'>Contacto</h4>
                         <Contacto />
                     </section>
-                )}
+               
 
-                {/* sector de asistente virtual */}
-                <section className='py-5' id='asistente-virtual'>
-                    <h4 className='text-center'>Asistente virtual - Rocket </h4>
-                    <section className='bot-rocket-test'>
-
-                        <Chatbot setMostrarChatbot={setMostrarChatbot} />
-                    </section>
-
-                </section>
+        
 
 
 
