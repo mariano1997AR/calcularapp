@@ -10,14 +10,14 @@ export const NavbarPhone = () => {
         <>
             <nav className="menu-container">
 
-                <section className='logo-responsive items-center gap-2'>
+                <section className='logo-responsive '>
 
-                    <Link className="a-logo " to="/inicio">
+                    <Link className="a-logo mx-5 py-2 " to="/inicio">
                         Calcular<span className='oscuro-logo'> AI</span>
                     </Link>
 
 
-                    <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="20.000000pt" height="20.000000pt" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
+                    <svg className='svg-logo' xmlns="http://www.w3.org/2000/svg" version="1.0" width="20.000000pt" height="20.000000pt" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
                         <metadata>
                             Created by potrace 1.16, written by Peter Selinger 2001-2019
                             <meta name="Producer" content="Online-Convert" /></metadata>
@@ -39,23 +39,14 @@ export const NavbarPhone = () => {
 
 
                 <input type="checkbox" id="menu-toggle" className="menu-toggle" />
-                <label htmlFor="menu-toggle" className="menu-button">☰</label>
+                <label htmlFor="menu-toggle" className="menu-button py-2">☰</label>
 
                 <ul className="menu py-1" >
-                    <li><a href="#caracteristicas" className='a'>Caracteristicas</a></li>
-                    <li><a href="#asistente-virtual" className='a'>Asistente</a></li>
+                  
+                    <li><Link to='/register-user' className='a'>Registrate</Link></li>
+                    <li><Link to='/login-user' className='a'>Ingresa App</Link></li>
+                   
 
-                    <li className="dropdown dropend">
-                        <button type="button" className="btn  btn-herramientas-toggle dropdown-toggle" data-bs-toggle="dropdown">
-                            Contacto
-                        </button>
-                        <ul className="dropdown-menu ">
-                            <li><a href="#contacto-nosotros" className="dropdown-item item-link-menu">Nosotros</a></li>
-                            <li><Link to='#contacto-contactar' className={`dropdown-item `}>Contacto</Link></li>
-                        </ul>
-                    </li>
-                    <li><Link to='/agendar' className={`a-link-navbar-responsive`}  >Agendar</Link></li>
-                    <li><a href="#servicios" className='a'>Servicios</a></li>
 
                 </ul>
 

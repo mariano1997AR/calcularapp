@@ -1,4 +1,4 @@
-.container-ingresar-calcularaiapp {
+.container-ingresar-calcularaiapp{
     max-width: 1800px;
     margin: 0 auto;
 }
@@ -11,6 +11,7 @@
     margin-top: 20px;
     margin-left: 20px;
 
+
 }
 
 .flex-item-right-sesion {
@@ -18,10 +19,20 @@
 
 
 }
+.imagen-calcularai-app{
+    width: 500px;
+    height:500px;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 
 .flex-item-left-sesion {
     flex: 50%;
-    background-color: #F7F7F7;
+    margin:0 auto;
+ 
 
 }
 
@@ -39,15 +50,7 @@
     align-items: center;
 }
 
-.img-left-sesion {
-    margin: 0 auto;
-    background-size: cover;
-    width: 100%;
-    height: auto;
-    margin-left: 50px;
-    border-radius: 10px;
-    background-attachment: fixed;
-}
+
 
 
 .flex-item-right-sesion .contacto {
@@ -127,7 +130,7 @@
 }
 
 .registrarse {
-    border: 1px solid white;
+    border: 1px solid #001524;
     padding: 10px;
     text-decoration: none;
 }
@@ -137,6 +140,7 @@
     font-size: 1.1em;
     border-radius: 10px;
     color: #001524;
+    
 }
 
 .top-left {

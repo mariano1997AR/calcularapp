@@ -1,24 +1,23 @@
-import './Ingreso.css'
+import './LoginUser.css';
+import { NavbarLogin } from './NavbarLogin/NavbarLogin';
 import { useState } from 'react';
-import { Link } from 'react-router-dom'
-import { login } from '../../components/apis/apis';
-import { Title, Meta } from 'react-head'
-import { useNavigate } from 'react-router-dom';
-import {toast,ToastContainer} from 'react-toastify';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
-import { NavbarApp } from './NavbarApp/NavbarApp';
-import { FooterApp } from './FooterApp/FooterApp';
+import { useNavigate } from 'react-router-dom';
+import { toast, ToastContainer } from 'react-toastify';
+import { login } from '../../apis/server'; 
+import './LoginUser.css';
+import logoCalcularAi from '../../assets/presentacion/calcularAI-logo-mejorado.webp';
+import { Title } from 'react-head';
 
-export const Ingreso = () => {
+export const LoginUser = () => {
+
 
     const [user, setUser] = useState<string>("");
     const [pass, setPass] = useState<string>("");
     const [mostrar, setMostrar] = useState<boolean>(false);
-
-
     const navigate = useNavigate();
-
     const toggleMostrar = () => setMostrar((prev) => !prev);
 
 
@@ -41,18 +40,18 @@ export const Ingreso = () => {
     }
     return (
         <>
-            <Title>Ingreso | Calcular AI App</Title>
-            <Meta name='description' content='Sitio de ingreso para entrar en la aplicacion de tensiora Electric' />
-            <Meta name='keywords' content='login de tensiora electric, entrada de tensiora electric, electricos' />
+            <Title>Ingreso App | Calcular AI</Title>
+            <NavbarLogin />
             <main className='container-ingresar-calcularaiapp'>
-                {/* navbar del la aplicacion */}
-                <NavbarApp />
-        
                 <section className="flex-container-iniciar-sesion py-2">
                     <section className="flex-item-left-sesion" >
-                        <article>
-                            <h1 className='titulo-bienvenida-calcularaiapp-login'>Bienvenidos! A Calcular  <span className='mx-2'>AI</span> App</h1>
-                        </article>
+                        <img
+                            src={logoCalcularAi}
+                            alt="imagen de calcular ai"
+                            loading='lazy'
+                            className='imagen-calcularai-app'
+
+                        />
                     </section>
                     <section className="flex-item-right-sesion mx-5">
                         <form className="mx-5" onSubmit={handleSubmit} >
@@ -91,7 +90,7 @@ export const Ingreso = () => {
                                 <FontAwesomeIcon className="i" onClick={toggleMostrar} icon={mostrar ? faEyeSlash : faEye} />
                             </article>
                             <article className="mb-2 ">
-                                <p className="py-2 pt-2 mb-3">¿Aún no eres usuario? </p><Link className="registrarse"  to='/prestador'>Registrate</Link>
+                                <p className="py-2 pt-2 mb-3">¿Aún no eres usuario? </p><Link className="registrarse" to='/register-user'>Registrate</Link>
                             </article>
 
                             <button
@@ -106,14 +105,12 @@ export const Ingreso = () => {
 
                             </button>
                             <ToastContainer />
-                            <Link className="mb-5 recuperar-contrasenia"  to='/recuperar-contrasenia'>¿Olvidaste tu contraseña?</Link>
+                            <Link className="mb-5 recuperar-contrasenia" to='/recuperar-contrasenia'>¿Olvidaste tu contraseña?</Link>
                         </form>
 
                     </section>
                 </section>
-                <FooterApp />
             </main>
-
 
         </>
     )

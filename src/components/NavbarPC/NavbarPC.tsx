@@ -8,34 +8,79 @@ export const NavbarPC = () => {
     const [visibleChatbot, setMostrarChatbot] = useState<boolean>(false); //visible 
     return (
         <>
-            <ul className="menu-links desaparece-dispositivo aparece-PC">
+            <nav className="hero desaparece-dispositivo aparece-PC">
+                {/* Barra de navegación */}
 
-                <li className='linea-bottom py-1 mx-3 flex-center'>
-                   
-                    <a href="#chatbot" className='btn' onClick={() => setMostrarChatbot(visibleChatbot)}>
-                       
-                        <Chatbot setMostrarChatbot={setMostrarChatbot} />
-                           <span className="tooltip-btn">¡Habla conmigo!</span>
-                    </a>
-                </li>
-
-                <li className="linea-bottom py-1 mx-3"><a href="#caracteristicas" className='a'>Caracteristicas</a></li>
-
-                <li className="nav-item dropdown mx-3">
-                    <a className="nav-link dropdown-toggle mb-2 py-1" role="button" data-bs-toggle="dropdown">Contacto</a>
-                    <ul className="dropdown-menu mt-4">
-                        <li><a href="#contacto-nosotros" className="dropdown-item item-link-menu">Nosotros</a></li>
-                        <li><a href="#contacto-contactar" className="dropdown-item item-link-menu">Contacto</a></li>
-
+                {/* Logo de la empresa */}
+                <div className="logo py-4">
+                    <Link className='mx-2 ' to='/'>
+                         Calcular AI
+                    </Link>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="20.000000pt" height="20.000000pt" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
+                        <metadata>
+                            Created by potrace 1.16, written by Peter Selinger 2001-2019
+                            <meta name="Producer" content="Online-Convert" /></metadata>
+                        <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#fff" stroke="none">
+                            <path d="M1015 4941 c-82 -37 -139 -127 -139 -221 0 -94 57 -184 139 -221 53 -25 157 -25 210 0 43 19 109 85 120 120 6 21 9 21 371 21 l364 0 0 -160 0 -160 -940 0 c-927 0 -940 0 -960 -20 -20 -20 -20 -33 -20 -1580 0 -1547 0 -1560 20 -1580 20 -20 33 -20 920 -20 l900 0 0 -240 0 -240 -420 0 c-407 0 -421 -1 -440 -20 -19 -19 -20 -33 -20 -220 0 -187 1 -201 20 -220 20 -20 33 -20 1420 -20 1387 0 1400 0 1420 20 19 19 20 33 20 220 0 187 -1 201 -20 220 -19 19 -33 20 -440 20 l-420 0 0 240 0 240 900 0 c887 0 900 0 920 20 20 20 20 33 20 1580 0 1547 0 1560 -20 1580 -20 20 -33 20 -960 20 l-940 0 0 160 0 160 364 0 c362 0 365 0 371 -21 11 -35 77 -101 120 -120 26 -12 63 -19 105 -19 80 0 132 22 181 77 42 47 63 100 63 163 0 63 -21 116 -63 163 -49 55 -101 77 -181 77 -42 0 -79 -7 -105 -19 -43 -19 -109 -85 -120 -120 -6 -21 -8 -21 -431 -21 -411 0 -425 -1 -444 -20 -19 -19 -20 -33 -20 -240 l0 -220 -320 0 -320 0 0 220 c0 207 -1 221 -20 240 -19 19 -33 20 -444 20 -423 0 -425 0 -431 21 -11 35 -77 101 -120 120 -26 12 -63 19 -105 19 -42 0 -79 -7 -105 -19z m155 -171 c11 -11 20 -33 20 -50 0 -17 -9 -39 -20 -50 -43 -43 -120 -11 -120 50 0 38 32 70 70 70 17 0 39 -9 50 -20z m2880 0 c11 -11 20 -33 20 -50 0 -17 -9 -39 -20 -50 -11 -11 -33 -20 -50 -20 -17 0 -39 9 -50 20 -11 11 -20 33 -20 50 0 17 9 39 20 50 11 11 33 20 50 20 17 0 39 -9 50 -20z m-1970 -998 l0 -387 -101 -100 c-151 -150 -156 -168 -74 -254 30 -32 55 -61 55 -64 0 -4 -36 -7 -80 -7 -104 0 -120 -13 -120 -100 l0 -60 -404 0 c-403 0 -405 0 -411 21 -11 35 -77 101 -120 120 -53 25 -157 25 -210 0 -145 -66 -185 -264 -76 -384 49 -55 101 -77 181 -77 42 0 79 7 105 19 43 19 109 85 120 120 6 21 8 21 411 21 l404 0 0 -60 c0 -87 16 -100 120 -100 44 0 80 -3 80 -7 0 -3 -25 -32 -55 -64 -84 -87 -79 -103 87 -265 161 -159 170 -162 257 -79 32 30 61 55 64 55 4 0 7 -36 7 -80 0 -123 -5 -120 240 -120 245 0 240 -3 240 120 0 44 3 80 7 80 3 0 32 -25 64 -55 87 -83 96 -80 257 79 166 162 171 178 87 265 -30 32 -55 61 -55 64 0 4 36 7 80 7 104 0 120 13 120 100 l0 60 404 0 c403 0 405 0 411 -21 11 -35 77 -101 120 -120 53 -25 157 -25 210 0 82 37 139 127 139 221 0 94 -57 184 -139 221 -53 25 -157 25 -210 0 -43 -19 -109 -85 -120 -120 -6 -21 -8 -21 -411 -21 l-404 0 0 60 c0 87 -16 100 -120 100 -44 0 -80 3 -80 7 0 3 25 32 55 64 82 86 77 104 -74 254 l-101 100 0 387 0 388 880 0 880 0 0 -1280 0 -1280 -2240 0 -2240 0 0 1280 0 1280 880 0 880 0 0 -388z m800 1 l0 -387 -32 -33 c-18 -18 -36 -33 -40 -33 -4 0 -8 36 -8 80 0 123 5 120 -240 120 -245 0 -240 3 -240 -120 0 -44 -3 -80 -7 -80 -4 0 -22 14 -40 32 l-33 32 0 388 0 388 320 0 320 0 0 -387z m-240 -486 c0 -86 8 -97 97 -133 87 -36 115 -32 172 21 l47 44 52 -52 52 -53 -45 -44 c-54 -53 -56 -75 -19 -169 38 -97 44 -101 131 -101 l73 0 0 -80 0 -80 -73 0 c-86 0 -97 -8 -133 -97 -36 -87 -32 -115 21 -171 l44 -47 -51 -52 -52 -52 -47 44 c-57 54 -82 56 -172 19 -89 -36 -107 -60 -107 -140 l0 -64 -75 0 -75 0 0 73 c0 86 -9 99 -104 137 -87 35 -109 32 -164 -23 l-48 -47 -48 49 -49 50 42 47 c30 34 41 55 41 79 0 41 -63 180 -85 189 -9 3 -46 6 -81 6 l-64 0 0 80 0 80 73 0 c86 0 97 8 133 97 36 87 32 115 -21 171 l-44 47 52 52 51 53 47 -46 c55 -54 80 -58 165 -23 95 37 104 50 104 136 l0 73 80 0 80 0 0 -73z m-1870 -517 c11 -11 20 -33 20 -50 0 -17 -9 -39 -20 -50 -43 -43 -120 -11 -120 50 0 38 32 70 70 70 17 0 39 -9 50 -20z m3680 0 c11 -11 20 -33 20 -50 0 -17 -9 -39 -20 -50 -11 -11 -33 -20 -50 -20 -17 0 -39 9 -50 20 -11 11 -20 33 -20 50 0 17 9 39 20 50 11 11 33 20 50 20 17 0 39 -9 50 -20z m350 -1410 l0 -80 -2240 0 -2240 0 0 80 0 80 2240 0 2240 0 0 -80z m-1840 -480 l0 -240 -400 0 -400 0 0 240 0 240 400 0 400 0 0 -240z m880 -480 l0 -80 -1280 0 -1280 0 0 80 0 80 1280 0 1280 0 0 -80z" />
+                            <path d="M500 3980 c-13 -13 -20 -33 -20 -60 0 -27 7 -47 20 -60 19 -19 33 -20 240 -20 l220 0 0 -340 c0 -327 1 -341 20 -360 19 -19 33 -20 300 -20 267 0 281 1 300 20 13 13 20 33 20 60 0 27 -7 47 -20 60 -19 19 -33 20 -240 20 l-220 0 0 340 c0 327 -1 341 -20 360 -19 19 -33 20 -300 20 -267 0 -281 -1 -300 -20z" />
+                            <path d="M4020 3980 c-19 -19 -20 -33 -20 -360 l0 -340 -220 0 c-207 0 -221 -1 -240 -20 -13 -13 -20 -33 -20 -60 0 -27 7 -47 20 -60 19 -19 33 -20 300 -20 267 0 281 1 300 20 19 19 20 33 20 360 l0 340 220 0 c207 0 221 1 240 20 13 13 20 33 20 60 0 27 -7 47 -20 60 -19 19 -33 20 -300 20 -267 0 -281 -1 -300 -20z" />
+                            <path d="M2432 3019 c-72 -28 -144 -101 -172 -176 -29 -78 -25 -206 9 -272 99 -190 369 -232 521 -81 62 63 90 134 90 230 0 190 -132 321 -323 319 -47 0 -90 -7 -125 -20z m206 -169 c130 -79 74 -280 -78 -280 -85 0 -150 65 -150 150 0 54 27 102 72 130 20 12 51 20 78 20 27 0 58 -8 78 -20z" />
+                        </g>
+                    </svg>
+                </div>
+                <div>
+                    <ul className='submenu'>
+                        <li className='py-4'><a className='a-link' href="#caracteristicas-aplicacion-calcularai">Caracteristicas</a></li>
+                        <li className='py-4'><a className='a-link' href="#servicios-calcularai">Servicios</a></li>
+                        <li className='py-4'><a className='a-link' href="#preguntas-frecuentes">Preguntas</a></li>
+                        <li className='mx-5'>
+                            <a href="#asistente" className='asistente ' onClick={() => setMostrarChatbot(visibleChatbot)}>
+                                <Chatbot setMostrarChatbot={setMostrarChatbot} />
+                                <span className="tooltip-btn text-white">¡Habla conmigo!</span>
+                            </a>
+                        </li>
                     </ul>
+                </div>
 
-                </li>
-                <li className="linea-bottom py-1 mx-3"><a href="#servicios" className='a'>Servicios</a></li>
-                <li className="linea-bottom py-1 mx-3"><Link to='/agendar' className="a" >Agendar</Link></li>
+                <section className='hero-text'>
+                    <section className='hero-text-content-left'>
+                        <h1 className='title'>Calcular <strong className='logo-oscuro'>AI</strong> App</h1>
+                        <p className='subtitle'>
+                            Calcular AI App es una solución SaaS diseñada específicamente para pequeñas y medianas empresas importadoras que buscan digitalizar, simplificar y controlar todo el proceso contable desde una sola plataforma.
+                        </p>
+
+                        <article className='btn-group'>
+                            <Link to='/login-user' className='btn-iniciar'>Iniciar App</Link>
+                            <Link to='/register-user' className='btn-registrar'>Registrarse</Link>
+                        </article>
+                    </section>
+                    <section className='hero-text-content-right'>
+                        <p className='description'>
+                            colocar la imagen de la aplicacion
+
+                        </p>
+                    </section>
+                </section>
+
+                {/* SVG para el efecto de ola */}
 
 
-            </ul>
 
+
+
+
+
+
+                <div className="wave">
+
+
+
+                    <svg viewBox="0 0 500 150" preserveAspectRatio="none">
+                        <path d="M0.00,49.98 C150.00,150.00 349.29,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                            style={{ stroke: 'none', fill: 'white' }}></path>
+                    </svg>
+                </div>
+            </nav>
 
         </>
     )

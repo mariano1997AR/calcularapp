@@ -1,33 +1,205 @@
-/* empieza el menu en modo PC de escritorio*/
-.menu-links {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.menu-links li {
-
-    margin-top: -30px;
-    margin-left: 10px;
-    list-style: none;
+/*Actualizacion del feactures*/
+.container-navbar {
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    color: #FBFBFB;
+    width: 100%;
+    height: 400px;
     text-align: center;
 
+    margin: 0 auto;
 }
 
-.menu-links li .a {
-    color: #222831;
+.logo-navbar {
+    width: 200px;
+    height: auto;
+    justify-content: flex-end;
+  
 }
 
-.menu-links .a {
+
+.hero {
+    position: relative;
+    height: 700px;
+    background: linear-gradient(90deg,rgba(219, 142, 48, 1) 0%, rgba(184, 150, 48, 1) 35%, rgba(158, 97, 0, 1) 100%);
+    /* Degradado de fondo */
+    display: flex;
+
+    color: #FBFBFB;
+
+      justify-content: space-around;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+
+
+}
+
+.wave svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+      
+}
+.logo-navbar{
+   margin-top: 10px;
+ 
+       
+}
+
+
+.submenu{
+   display: flex;
+
+ justify-content: space-around;
+  position: relative;
+  margin-top: 10px;
+    
+}
+.submenu li{
     list-style: none;
-    text-decoration: none;
-    transition: all 1s;
+ 
+    margin: 0 20px;
+    font-size: 1em;
+}
 
+.info-container {
+   margin-top: 70px;
+   
+}
+
+.info-text-left{
+    
+    flex: 50%;
+
+    
+     
+}
+
+.info-text-right{
+    flex: 50%;
+   margin-left: 50px;
 
 }
 
-.item-link-menu {
-    margin-top: 30px;
-    margin-bottom: 10px;
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.hero-text-content-left{
+    flex: 50%;
+    margin-right: 20px;
+}
+
+.hero-text-content-right{
+    flex: 50%;
+    margin-left: 20px;
+}
+.hero-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.btn-iniciar{
+    background-color: #CFAB8D;
+    color: #FBFBFB;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.btn-iniciar:hover {
+    background-color: #4F200D;
+    color: #FBFBFB;
+    transition: background-color 0.5s ease;
+    border-radius: 10px;
+}
+
+.btn-registrar{
+    background-color: #CFAB8D;
+    color: #FBFBFB;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 2px;
+    
+}
+
+.btn-registrar:hover {
+    background-color: #4F200D;
+    color: #FBFBFB;
+    transition: background-color 0.5s ease;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.description {
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 33.34%;
+    
+}
+
+.btn-group{
+    margin-top: 20px;
+}
+
+.a-link:hover{
+    border-bottom: 1px solid #FBFBFB;
+    transition: border-bottom 0.5s ease-in-out;
+    margin-bottom: 30px;
+    
+}
+
+.asistente{
+    padding-top: 20px;
+}
+
+.tooltip-btn {
+  background-color: white;
+  color: #222831;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+ 
+  white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(10px);
+  bottom: 0;
+  top: 0;
+  transition: opacity 0.3s ease;
+  
+}
+
+.btn:hover .tooltip-btn {
+  opacity: 1;
+}
+
+
+
+/* empieza el menu en modo PC de escritorio*/
+.logo{
+    display: flex;
+
+}
+
+.logo-oscuro{
+    color: #db8e30;
 }
 
 
@@ -103,58 +275,3 @@
 
 }
 
-.flex-center{
-    
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    width: 50%;
-}
-
-/* asistente virtual*/
-
-.asistente-virtual{
-    width: 40px;
-    height: 40px;
-    border: 1px solid black;
-    border-radius: 50%;
-   
-    margin-top: -10px;
- 
-
-}
-.asistente-virtual:hover{
-    border-color: #BB6653;
-    fill: white;
-    cursor: pointer;
-    transition: all 0.5s;
-}
-
-.btn{
-    margin-top: 2px;
-    margin-left:20px;   
-    padding: 5px 10px;
-
-
-
-}
-
-.tooltip-btn {
-  background-color: white;
-  color: #222831;
-  padding: 6px 12px;
-  border-radius: 8px;
-  font-size: 0.9rem;
- 
-  white-space: nowrap;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-  opacity: 0;
-  pointer-events: none;
-  transform: translateX(2px);
-  transition: opacity 0.3s ease;
-  
-}
-
-.btn:hover .tooltip-btn {
-  opacity: 1;
-}
