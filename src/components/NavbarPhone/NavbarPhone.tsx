@@ -1,11 +1,11 @@
 import './NavbarPhone.css';
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
-import { Chatbot } from '../Chatbot/Chatbot';
+//import { useState } from 'react';
+//import { Chatbot } from '../Chatbot/Chatbot';
 
 
 export const NavbarPhone = () => {
-    const [visibleChatbot, setMostrarChatbot] = useState<boolean>(false); //visible 
+    //const [visibleChatbot, setMostrarChatbot] = useState<boolean>(false); //visible 
     return (
         <>
             <nav className="menu-container">
