@@ -29,11 +29,6 @@ export const NavbarPhone = () => {
                         </g>
                     </svg>
 
-                    <a href="#chatbot" className='btn' onClick={() => setMostrarChatbot(visibleChatbot)}>
-                        <Chatbot setMostrarChatbot={setMostrarChatbot} />
-                        <span className="tooltip-btn">¡Habla conmigo!</span>
-                    </a>
-
 
                 </section>
 
