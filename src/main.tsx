@@ -7,10 +7,6 @@ import { Inicio } from './pages/Inicio/Inicio.tsx'
 import { Agendar } from './pages/Agendar/Agendar.tsx'
 import { TerminosCondiciones } from './pages/TerminosCondiciones/TerminosCondiciones.tsx'
 import { PoliticasPrivacidad } from './pages/PoliticasPrivacidad/PoliticasPrivacidad.tsx'
-import { RegisterUser } from './pages/RegisterUser/RegisterUser.tsx'
-import { LoginUser } from './pages/LoginUser/LoginUser.tsx'
-import { Dashboard } from './pages/Dashboard/Dashboard.tsx'
-import { RegistroOrganizacion } from './pages/Dashboard/RegistroOrganizacion/RegistroOrganizacion.tsx'
 import { GeneradorComprobantes } from './pages/GeneradorComprobantes/GeneradorComprobantes.tsx'
 
 const router = createBrowserRouter([
@@ -32,24 +28,6 @@ const router = createBrowserRouter([
    element:<Agendar />
   },
 
-  {
-    path:'/login-user',
-    element:<LoginUser />
-  },
-  
-
-  {
-    path:'/register-user',
-    element:<RegisterUser />
-  },
-  {
-    path:'/dashboard',
-    element:<Dashboard />
-  },
-  {
-    path:'/registro-organizacion',
-    element:<RegistroOrganizacion />
-  }
 ],{
   basename:'/tensiorasales/'
 })
