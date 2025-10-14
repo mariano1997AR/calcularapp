@@ -6,7 +6,7 @@ import { NavbarPhone } from '../NavbarPhone/NavbarPhone';
 export const NavbarPage = () => {
     return (
         <>
-            <nav className="navbar-container mb-4">
+            <nav className=" mb-4">
               
 
                 {/* Aparece de forma en PC pero no en dispositivos */}

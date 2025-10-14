@@ -10,7 +10,7 @@ export const FooterPage = () => {
                     <section className='columna-container desaparecer-columnas'>
                         <article className='columna-redes-sociales'>
                             <ul className='submenu-redesociales'>
-                                <li className="logo-footer">Calcular<span className='oscuro-logo'> AI</span>™</li>
+                                <li className="logo-footer">Tensiora<span className='oscuro-logo'> Sales</span>™</li>
                             </ul>
 
                         </article>
@@ -35,10 +35,10 @@ export const FooterPage = () => {
 
                     <section className='top-line-copy' >
                         <ul className='submenu-enterprise-footer'>
-                            <li>Copyright 2025 - Calcular<span className='oscuro-logo' > AI ™</span></li>
+                            <li>Copyright 2025 <span className='oscuro-logo' >™</span></li>
                             <li><a></a></li>
                             <li><a></a></li>
-                            <li><Link to='/medios-pagos' className="link"  >Medios de Pagos</Link></li>
+                     
                         </ul>
                     </section>
 

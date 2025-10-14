@@ -121,10 +121,11 @@ export const RegisterUser = ()=>{
         console.log(telefonoCompleto);
 
         try {
-            const res = await fetch('http://localhost/apiar/submit.php', {
+            const res = await fetch('http://localhost:3000/registeruser', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
+                    'Accept': 'application/json',
                 },
                 body: JSON.stringify(formData),
 

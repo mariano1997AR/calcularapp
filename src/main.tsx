@@ -9,6 +9,9 @@ import { TerminosCondiciones } from './pages/TerminosCondiciones/TerminosCondici
 import { PoliticasPrivacidad } from './pages/PoliticasPrivacidad/PoliticasPrivacidad.tsx'
 import { RegisterUser } from './pages/RegisterUser/RegisterUser.tsx'
 import { LoginUser } from './pages/LoginUser/LoginUser.tsx'
+import { Dashboard } from './pages/Dashboard/Dashboard.tsx'
+import { RegistroOrganizacion } from './pages/Dashboard/RegistroOrganizacion/RegistroOrganizacion.tsx'
+import { GeneradorComprobantes } from './pages/GeneradorComprobantes/GeneradorComprobantes.tsx'
 
 const router = createBrowserRouter([
   {
@@ -17,12 +20,18 @@ const router = createBrowserRouter([
      children:[
       {index:true,element:<Inicio />},
       {path:'inicio',element:<Inicio />},
-      {path:'agendar',element:<Agendar />},
+   
       {path:'terminos-condiciones',element:<TerminosCondiciones />},
       {path:'politicas-privacidad',element:<PoliticasPrivacidad />},
+      {path:'generar-comprobantes',element:<GeneradorComprobantes />}
      ]
 
   },
+  {
+   path:'/agendar',
+   element:<Agendar />
+  },
+
   {
     path:'/login-user',
     element:<LoginUser />
@@ -32,9 +41,17 @@ const router = createBrowserRouter([
   {
     path:'/register-user',
     element:<RegisterUser />
+  },
+  {
+    path:'/dashboard',
+    element:<Dashboard />
+  },
+  {
+    path:'/registro-organizacion',
+    element:<RegistroOrganizacion />
   }
 ],{
-  basename:'/calcularai/'
+  basename:'/tensiorasales/'
 })
 
 createRoot(document.getElementById('root')!).render(
