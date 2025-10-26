@@ -2,21 +2,20 @@ import './Inicio.css';
 import { useState, useEffect, useRef } from 'react';
 import arca from '../../assets/brands/arca-brand1.webp'
 import bcra from '../../assets/brands/bcra-actualizada-400x400.webp'
-import logoCalcularAI from '../../assets/presentacion/calcularAI-logo-mejorado.webp'
 import python from '../../assets/brands/Python-Logo-400x400.webp';
 import mistralAI from '../../assets/brands/MistralAI-400x400.webp';
 import excelLogo from '../../assets/brands/excel-logo-400x400.webp';
 import { Contacto } from '../Contacto/Contacto';
 import { Title, Meta } from 'react-head';
-import marcasuiza from '../../assets/brands/marca-suiza-mejorado.webp'
+import logoTensioraSales from '../../assets/presentacion/tensiorasales-logooficial.webp';
 
 
 const frases = [
-    "Bienvenido a CalcularAI",
-    "Más que contabilidad, soluciones digitales para tu negocio",
-    "Tu socio contable en la nube",
+    "Bienvenido a Tensiora Sales",
+    "Confia en Tensiora para tus ventas",
+    "Con nuestro sistema de contrato, puede realizar tus pedidos",
     "Donde la contabilidad se encuentra con la tecnología",
-    "Simplificamos tus finanzas, potenciamos tu empresa",
+    "Simplificamos tus pedidos con tensiora",
     "Trabajamos con transparencia, responsabilidad y pasión por lo que hacemos.",
 
 ]
@@ -79,10 +78,10 @@ export const Inicio = () => {
 
     return (
         <>
-            <Title>Inicio | Tensiora Sales</Title>
+            <Title>Inicio | Calcular App</Title>
             <Meta name="keywords" content="Contabilidad digital, Asesoría contable inteligente, Gestión fiscal automatizada,Auditoría con inteligencia artificial,Declaraciones impositivas automáticas, Planificación fiscal optimizada, soluciones digitales, Control financiero inteligente, Automatización contable,sistemas de gestión, automatización, bots,Análisis financiero predictivo" />
             <Meta name='description' content='Somos una consultora contable innovadora que integra inteligencia artificial para optimizar la gestión financiera, la planificación fiscal y la toma de decisiones estratégicas. Ofrecemos soluciones inteligentes para automatizar procesos, reducir errores y maximizar la eficiencia de pymes, autónomos y organizaciones, brindando un servicio ágil, preciso y personalizado.' />
-            <Meta property='og:title' content='Inicio | Calcular AI' />
+            <Meta property='og:title' content='Inicio | Calcular App' />
             <Meta property='og:description' content='Es el inicio de Calcular AI' />
             <Meta property='og:type' content='website' />
             <main className='container-inicio'>
@@ -101,72 +100,259 @@ export const Inicio = () => {
                         </p>
                     </section>
                     <section>
-                        <article ref={ref} className={`zoom-animado py-4 ${visible ? 'visible' : ''}`} id="caracteristicas-aplicacion-calcularai">
-                            <h2 className='text-center titulo-caracteristica oscuro-logo' >Productos</h2>
+                        <article ref={ref} className={`zoom-animado py-4 ${visible ? 'visible' : ''}`} id="insumos">
+                            <h2 className='text-center titulo-caracteristica logo-oscuro' >Especificaciones</h2>
 
                             <article>
                                 <p className='parrafo-caracteristicas py-2'>
-                                    Productos a tu medida, con la mejor calidad y al mejor precio.
+                                    Insumos a tu medida, con la mejor calidad y al mejor precio.
                                 </p>
                             </article>
                             <article>
                                 <article className='container-card-caracteristica py-4'>
                                     <article className='cards'>
                                         <article className='svg-container'>
-                                            <a href="https://drive.google.com/file/d/1rV_S3WUzViGHInLqvP4Lg1nUAqxI_jBg/view?usp=sharing" target='_blank' download>
-                                                <img src={marcasuiza} alt="catologo de la marca suiza" />
-                                            </a>
+                                            <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                                                width="50.000000pt" height="50.000000pt" viewBox="0 0 512.000000 512.000000"
+                                                preserveAspectRatio="xMidYMid meet">
+                                                <metadata>
+                                                    Created by potrace 1.16, written by Peter Selinger 2001-2019
+                                                </metadata>
+                                                <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                                                    fill="#000000" stroke="none">
+                                                    <path d="M639 4616 c-145 -51 -249 -157 -298 -303 -21 -62 -21 -70 -21 -1433
+0 -1363 0 -1371 21 -1433 49 -148 159 -257 306 -306 60 -20 82 -21 588 -21
+l525 0 0 -160 0 -160 -107 0 c-90 0 -113 -3 -141 -20 -48 -30 -72 -75 -72
+-140 0 -65 24 -110 72 -140 31 -19 51 -20 408 -20 357 0 377 1 408 20 48 30
+72 75 72 140 0 65 -24 110 -72 140 -28 17 -51 20 -140 20 l-108 0 0 160 0 160
+108 0 c89 0 112 3 140 20 48 30 72 75 72 140 0 65 -24 110 -72 140 -32 19 -52
+20 -773 20 -408 0 -758 5 -779 10 -49 11 -85 37 -111 81 -18 31 -20 55 -23
+292 l-3 257 828 0 c809 0 829 1 861 20 48 30 72 75 72 140 0 65 -24 110 -72
+140 -32 19 -52 20 -620 20 l-588 0 0 720 0 720 588 0 c568 0 588 1 620 20 48
+30 72 75 72 140 0 65 -24 110 -72 140 -32 19 -52 20 -728 20 -676 0 -696 -1
+-728 -20 -18 -11 -41 -34 -52 -52 -19 -32 -20 -52 -20 -860 l0 -828 -80 0 -80
+0 0 873 c0 487 4 889 10 911 11 49 37 85 81 111 33 19 57 20 804 25 721 5 773
+6 798 23 45 29 67 75 67 137 0 65 -24 110 -72 140 -32 19 -52 20 -828 20
+l-795 0 -66 -24z"/>
+                                                    <path d="M2879 4616 c-145 -51 -249 -157 -298 -303 -21 -62 -21 -73 -21 -1228
+l0 -1165 -307 0 c-290 0 -310 -1 -341 -20 -48 -30 -72 -75 -72 -140 0 -65 24
+-110 72 -140 31 -19 51 -20 341 -20 l307 0 0 -365 c0 -344 1 -369 21 -428 49
+-148 159 -257 306 -306 61 -21 80 -21 793 -21 713 0 732 0 793 21 79 26 143
+67 199 127 56 61 81 103 107 179 21 62 21 66 21 1751 0 1512 -2 1694 -16 1743
+-43 147 -161 268 -311 318 -61 21 -80 21 -795 21 l-733 0 -66 -24z m1465 -306
+c49 -11 85 -37 111 -81 19 -33 20 -51 19 -584 0 -533 -1 -552 -22 -630 -63
+-231 -214 -419 -417 -520 -123 -62 -224 -86 -355 -86 -363 0 -673 244 -772
+606 -21 78 -22 97 -22 630 -1 533 0 551 19 584 25 42 62 71 106 81 47 11 1285
+12 1333 0z m-1285 -2050 c90 -61 216 -117 329 -148 89 -24 113 -26 292 -26
+179 0 203 2 292 26 165 45 317 126 451 241 l57 49 0 -714 c0 -392 -5 -731 -10
+-752 -11 -49 -37 -85 -81 -111 -33 -19 -52 -20 -709 -20 -657 0 -676 1 -709
+20 -44 26 -70 62 -81 111 -5 21 -10 360 -10 752 l0 714 58 -49 c31 -27 86 -69
+121 -93z"/>
+                                                    <path d="M3112 3980 c-48 -30 -72 -75 -72 -140 0 -65 24 -110 72 -140 32 -19
+52 -20 568 -20 516 0 536 1 568 20 48 30 72 75 72 140 0 65 -24 110 -72 140
+-32 19 -52 20 -568 20 -516 0 -536 -1 -568 -20z"/>
+                                                    <path d="M3112 3340 c-48 -30 -72 -75 -72 -140 0 -65 24 -110 72 -140 32 -19
+52 -20 568 -20 516 0 536 1 568 20 48 30 72 75 72 140 0 65 -24 110 -72 140
+-32 19 -52 20 -568 20 -516 0 -536 -1 -568 -20z"/>
+                                                    <path d="M3519 1896 c-199 -70 -319 -241 -319 -456 0 -225 131 -400 349 -466
+69 -21 210 -18 284 7 202 67 327 242 327 457 0 140 -37 237 -128 334 -95 101
+-207 148 -354 148 -71 0 -108 -6 -159 -24z m239 -326 c130 -79 74 -280 -78
+-280 -152 0 -208 201 -78 280 43 26 113 26 156 0z"/>
+                                                </g>
+                                            </svg>
+
 
                                         </article>
-                                        <h4 className='text-2xl py-2 text-center subtitulo-caracteristicas'>Marca Suiza</h4>
+                                        <h4 className='text-2xl py-2 text-center subtitulo-caracteristicas'>Insumos informaticos</h4>
                                         <p className='text-sm parrafo-automatizado'>
-                                            Elige los productos de  <strong>suiza</strong> para tu negocio, calidad y confianza garantizadas.
+                                          Para mas información puede ver nuestro catálogo de productos. 
+                                           <a target='_blank' href="https://docs.google.com/spreadsheets/d/18wbqmwgcCRyvswajG0lm6Oyum4d_pM_XvIt9FQbTz94/edit?gid=0#gid=0">Ver  Catalogo</a>
+
 
                                         </p>
                                     </article>
                                     <article className='cards'>
                                         <article className='svg-container'>
-                                            <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="50.000000pt" height="50.000000pt" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
+                                            <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                                                width="50.000000pt" height="50.000000pt" viewBox="0 0 512.000000 512.000000"
+                                                preserveAspectRatio="xMidYMid meet">
                                                 <metadata>
                                                     Created by potrace 1.16, written by Peter Selinger 2001-2019
-                                                    <meta name="Producer" content="Online-Convert" /></metadata>
-                                                <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
-                                                    <path d="M3031 5109 c-42 -13 -109 -79 -671 -659 -438 -453 -440 -455 -440 -497 0 -41 4 -47 176 -223 163 -166 176 -182 162 -198 -29 -32 -59 -104 -69 -162 -23 -143 46 -280 175 -348 97 -51 267 -31 342 39 l21 20 175 -181 c174 -180 175 -180 219 -180 43 0 46 2 141 102 54 57 98 96 98 88 1 -42 23 -167 46 -260 30 -121 76 -238 129 -329 40 -68 151 -192 197 -218 l28 -17 0 -123 0 -123 -60 0 c-103 0 -100 10 -100 -320 0 -267 1 -281 20 -300 11 -11 29 -20 40 -20 20 0 20 -7 20 -560 l0 -560 80 0 80 0 0 560 0 560 480 0 480 0 0 -560 0 -560 80 0 80 0 0 560 c0 553 0 560 20 560 11 0 29 9 40 20 19 19 20 33 20 300 0 330 3 320 -100 320 l-60 0 0 88 c0 49 36 484 80 967 44 483 80 902 80 931 0 35 -6 58 -17 72 -10 11 -163 146 -339 300 -209 182 -332 282 -350 286 -16 3 -147 20 -292 37 l-263 33 -251 258 c-137 142 -266 267 -285 279 -41 26 -156 35 -212 18z m136 -176 c11 -10 175 -178 363 -373 189 -195 399 -411 466 -480 l123 -125 -134 -140 -133 -139 -40 28 c-60 41 -108 55 -192 55 -77 1 -129 -15 -190 -59 -18 -13 -44 -20 -71 -20 -42 0 -47 -3 -181 -138 -135 -135 -138 -139 -138 -181 0 -43 4 -48 117 -163 l117 -118 -77 -78 -78 -77 -172 178 c-213 220 -211 219 -311 129 -36 -33 -80 -64 -97 -67 -96 -21 -179 48 -179 149 0 62 12 89 67 147 39 42 48 57 48 88 0 35 -12 50 -174 219 -95 99 -172 184 -171 189 1 8 382 402 773 801 201 205 218 216 264 175z m982 -599 l134 -16 281 -245 c155 -136 287 -251 294 -258 10 -9 -1 -169 -63 -846 -52 -582 -75 -880 -75 -982 l0 -147 -400 0 -400 0 0 84 0 84 80 -5 80 -6 0 85 0 85 -60 6 c-196 17 -353 188 -434 473 -30 104 -56 258 -56 329 0 93 -11 111 -152 252 l-133 133 58 57 57 58 330 -330 330 -330 62 63 63 62 -113 113 -112 112 0 169 0 168 199 203 c114 117 200 213 203 226 2 13 2 34 -1 46 -4 13 -84 104 -180 203 -120 126 -166 179 -150 176 13 -3 84 -13 158 -22z m-423 -785 c34 -33 34 -33 34 -128 l0 -96 -115 115 c-124 124 -128 133 -54 149 50 11 97 -3 135 -40z m1154 -2029 l0 -160 -560 0 -560 0 0 160 0 160 560 0 560 0 0 -160z" />
-                                                    <path d="M1195 4800 l-60 -60 203 -203 202 -202 62 63 63 62 -200 200 c-110 110 -202 200 -205 200 -3 0 -32 -27 -65 -60z" />
-                                                    <path d="M960 4160 l0 -80 320 0 320 0 0 80 0 80 -320 0 -320 0 0 -80z" />
-                                                    <path d="M1335 3780 l-200 -200 63 -62 62 -63 202 202 203 203 -60 60 c-33 33 -62 60 -65 60 -3 0 -95 -90 -205 -200z" />
-                                                    <path d="M215 3341 c-22 -10 -54 -34 -72 -52 -68 -72 -63 48 -63 -1609 0 -1657 -5 -1537 63 -1609 18 -18 50 -42 72 -52 38 -18 100 -19 1545 -19 1445 0 1507 1 1545 19 22 10 54 34 72 52 66 70 63 29 63 879 0 757 0 770 -20 790 -19 19 -33 20 -280 20 l-260 0 0 38 c0 50 -49 149 -96 194 -22 20 -65 49 -97 64 -53 24 -68 26 -145 22 -64 -3 -98 -10 -130 -27 -91 -47 -161 -146 -170 -242 l-5 -49 -198 0 -199 0 0 260 c0 247 -1 261 -20 280 -15 15 -33 20 -71 20 -149 0 -247 88 -218 194 22 81 77 116 192 124 125 8 117 -17 117 362 0 307 -1 321 -20 340 -20 20 -33 20 -792 20 -732 0 -775 -1 -813 -19z m1465 -340 l0 -198 -49 -5 c-96 -9 -195 -79 -242 -170 -17 -32 -24 -66 -27 -130 -4 -77 -2 -92 22 -145 15 -32 44 -75 64 -97 45 -47 144 -96 195 -96 l37 0 0 -200 0 -200 -260 0 c-310 0 -293 7 -303 -119 -7 -95 -28 -138 -83 -172 -46 -28 -102 -28 -148 0 -55 34 -76 77 -83 172 -10 126 7 119 -303 119 l-260 0 0 674 c0 476 3 683 11 706 22 60 6 59 752 60 l677 0 0 -199z m957 -1113 c52 -31 73 -75 80 -169 10 -126 -7 -119 303 -119 l260 0 0 -675 c0 -746 1 -732 -60 -754 -23 -8 -230 -11 -706 -11 l-674 0 0 199 0 198 49 5 c95 9 194 78 243 170 20 37 23 58 23 148 0 91 -3 111 -23 149 -51 94 -166 171 -257 171 l-35 0 0 200 0 200 260 0 c310 0 294 -6 302 117 8 114 37 161 115 188 43 15 74 11 120 -17z m-1995 -337 c9 -96 79 -195 170 -242 65 -34 194 -38 270 -9 103 39 186 144 196 251 l5 49 198 0 199 0 0 -260 c0 -310 -6 -294 118 -303 126 -8 192 -62 192 -157 0 -95 -66 -149 -192 -157 -124 -9 -118 7 -118 -303 l0 -260 -674 0 c-476 0 -683 3 -706 11 -61 22 -60 8 -60 754 l0 675 199 0 198 0 5 -49z" />
-                                                    <path d="M400 400 l0 -80 80 0 80 0 0 80 0 80 -80 0 -80 0 0 -80z" />
-                                                    <path d="M720 400 l0 -80 400 0 400 0 0 80 0 80 -400 0 -400 0 0 -80z" />
+                                                </metadata>
+                                                <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                                                    fill="#000000" stroke="none">
+                                                    <path d="M1973 4959 c-17 -5 -43 -23 -57 -40 l-26 -31 0 -364 c0 -283 3 -372
+13 -397 8 -18 46 -81 85 -140 40 -60 78 -131 87 -159 13 -44 15 -145 15 -665
+l0 -613 -600 0 -600 0 2 197 3 198 51 7 c143 21 310 100 419 200 68 62 145
+162 145 189 0 55 -52 97 -103 83 -15 -3 -41 -25 -59 -48 -49 -64 -51 -65 -44
+-19 10 70 -11 181 -49 259 -64 130 -172 213 -309 236 -36 6 -66 16 -66 22 1
+26 40 96 72 128 58 57 121 82 208 82 92 1 149 -23 212 -86 71 -71 91 -123 98
+-256 6 -128 14 -142 81 -142 29 0 43 6 59 28 21 25 22 34 17 162 -5 154 -23
+226 -88 351 -213 410 -739 560 -1140 325 -173 -102 -294 -251 -361 -448 -28
+-81 -32 -110 -36 -225 -5 -148 9 -235 58 -352 72 -175 215 -328 387 -415 61
+-30 213 -76 254 -76 l29 0 0 -199 0 -199 -118 -4 c-133 -4 -176 -19 -224 -79
+-41 -51 -48 -111 -48 -430 l0 -289 -112 0 c-132 0 -173 -14 -201 -70 -16 -33
+-17 -84 -15 -742 l3 -707 30 -31 c16 -17 45 -35 65 -41 23 -7 803 -9 2375 -7
+2217 3 2342 4 2368 21 15 9 35 29 44 44 17 25 18 75 18 733 0 786 4 736 -68
+780 -29 18 -51 20 -216 20 -170 0 -183 1 -179 18 3 9 105 292 227 627 l222
+610 110 184 c94 160 109 190 109 228 0 36 -6 50 -29 74 -24 24 -38 29 -78 29
+-26 0 -62 -4 -79 -9 -30 -8 -33 -6 -80 55 -73 95 -112 108 -242 80 l-62 -14
+-51 65 c-60 76 -101 98 -171 90 l-47 -6 14 46 c8 25 37 82 66 127 29 44 66
+103 83 130 l31 49 3 377 3 378 -26 31 c-15 17 -43 35 -63 41 -53 14 -1313 14
+-1345 -1 -47 -21 -60 -80 -26 -123 l20 -26 640 0 639 0 0 -125 0 -125 -1135 0
+-1135 0 0 125 0 125 358 0 359 0 21 23 c27 29 28 77 3 108 l-19 24 -384 2
+c-214 1 -397 -3 -415 -8z m-956 -574 c77 -26 159 -71 218 -118 l29 -25 -70 5
+c-235 17 -455 -152 -472 -364 -2 -35 -6 -63 -7 -63 -1 0 -21 7 -45 15 -65 23
+-116 69 -149 136 -54 108 -51 201 11 331 29 63 35 69 78 83 129 43 279 43 407
+0z m3303 -90 l0 -104 -71 -111 c-39 -61 -82 -136 -95 -168 -15 -35 -28 -55
+-36 -53 -7 3 -36 7 -63 9 -44 3 -54 0 -77 -23 -31 -31 -29 -22 -68 -268 l-30
+-187 -297 -818 -298 -817 -278 -3 -277 -2 0 315 c0 344 -2 360 -58 418 -53 56
+-73 61 -254 65 l-168 4 0 622 c0 750 8 697 -139 925 l-61 95 0 103 0 103 1135
+0 1135 0 0 -105z m-3994 -188 c4 -229 144 -403 353 -439 39 -7 71 -17 71 -23
+-1 -26 -41 -95 -75 -128 -151 -146 -389 -98 -486 98 -28 57 -31 74 -31 152 0
+102 20 190 64 277 24 49 94 156 101 156 1 0 3 -42 3 -93z m671 -440 c47 -25
+110 -102 130 -160 33 -98 12 -235 -50 -328 -34 -51 -111 -72 -262 -72 -104 -1
+-131 3 -202 27 -70 23 -221 109 -237 134 -2 4 26 6 63 4 236 -14 449 154 468
+367 6 58 6 59 32 51 15 -4 41 -15 58 -23z m3188 -67 c22 0 67 7 100 15 l60 14
+25 -32 c63 -80 103 -117 137 -123 29 -5 119 6 174 22 12 3 33 -17 70 -63 29
+-37 56 -72 61 -78 4 -5 28 -12 52 -15 l44 -5 -54 -90 c-30 -49 -60 -89 -67
+-89 -14 2 -728 261 -734 267 -2 2 4 52 13 110 l16 105 32 -19 c17 -10 49 -19
+71 -19z m163 -459 c180 -66 339 -124 353 -130 l27 -10 -225 -618 c-123 -340
+-228 -622 -232 -626 -5 -4 -35 -7 -68 -5 l-60 3 143 390 c105 288 143 402 143
+437 1 42 -6 58 -62 141 -95 139 -145 205 -165 216 -66 35 -166 11 -196 -48
+-38 -72 -137 -366 -131 -388 14 -58 80 -81 126 -44 15 12 40 68 74 160 28 78
+56 141 61 139 5 -1 37 -42 72 -91 l62 -89 -144 -396 c-79 -218 -147 -405 -151
+-414 -6 -16 -21 -18 -112 -18 -96 0 -105 2 -98 18 58 148 145 403 145 426 0
+63 -80 100 -128 59 -13 -11 -54 -112 -108 -260 l-87 -243 -64 0 c-50 0 -64 3
+-61 14 11 47 544 1496 551 1496 4 0 155 -54 335 -119z m-1800 -767 c22 -15 22
+-16 22 -320 l0 -304 -179 0 -179 0 -30 53 c-66 117 -212 219 -387 269 -70 20
+-102 23 -255 23 -204 0 -263 -12 -405 -80 -110 -53 -200 -131 -241 -209 l-29
+-56 -182 0 -183 0 0 300 c0 287 1 301 20 320 20 20 33 20 1013 20 882 0 995
+-2 1015 -16z m-782 -462 c87 -28 175 -77 220 -123 l38 -39 -489 0 -490 1 48
+44 c58 54 146 98 247 125 100 27 332 23 426 -8z m2994 -962 l0 -640 -2295 0
+-2295 0 0 640 0 640 2295 0 2295 0 0 -640z"/>
+                                                    <path d="M3205 3657 c-218 -56 -421 -247 -496 -467 -28 -84 -31 -223 -6 -295
+46 -133 160 -215 310 -223 108 -6 179 10 285 63 351 177 504 616 290 835 -62
+65 -135 94 -243 97 -50 1 -112 -3 -140 -10z m222 -168 c82 -40 117 -138 89
+-249 -39 -150 -157 -295 -299 -365 -147 -73 -286 -57 -341 38 -49 85 -40 184
+27 311 38 72 141 179 212 221 112 65 233 82 312 44z"/>
                                                 </g>
                                             </svg>
 
                                         </article>
 
 
-                                        <h4 className='text-2xl py-2 text-center subtitulo-caracteristicas'>Desarrollo de soluciones personalizadas</h4>
+                                        <h4 className='text-2xl py-2 text-center subtitulo-caracteristicas'>Golosinas</h4>
                                         <p className='text-sm parrafo-automatizado'>
                                             crear <strong>software, sistemas o herramientas</strong> diseñadas específicamente para las necesidades únicas del cliente.
                                         </p>
                                     </article>
                                     <article className='cards'>
                                         <article className='svg-container' >
-                                            <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="50.000000pt" height="50.000000pt" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
+                                            <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                                                width="50.000000pt" height="50.000000pt" viewBox="0 0 512.000000 512.000000"
+                                                preserveAspectRatio="xMidYMid meet">
                                                 <metadata>
                                                     Created by potrace 1.16, written by Peter Selinger 2001-2019
-                                                    <meta name="Producer" content="Online-Convert" /></metadata>
-                                                <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
-                                                    <path d="M1737 4936 c-71 -26 -88 -53 -110 -176 -8 -47 -25 -110 -36 -141 -52 -137 -176 -272 -321 -349 -91 -48 -124 -85 -136 -149 -10 -49 20 -255 62 -421 185 -749 614 -1317 1232 -1633 65 -34 123 -57 142 -57 42 0 206 85 350 181 278 186 510 430 687 724 193 321 326 712 374 1098 19 158 -7 210 -140 277 -207 104 -330 279 -365 519 -9 59 -31 98 -69 121 -31 19 -56 20 -832 20 -643 -1 -807 -4 -838 -14z m1587 -193 c27 -238 227 -505 451 -604 24 -11 47 -24 50 -30 10 -15 -23 -221 -60 -374 -165 -685 -564 -1227 -1118 -1520 l-76 -40 -56 28 c-31 15 -97 52 -147 83 -496 302 -845 795 -1009 1424 -27 105 -69 330 -69 372 0 12 22 29 63 49 151 76 286 212 359 364 39 82 78 216 78 267 l0 28 743 3 c408 1 752 3 763 5 19 2 22 -5 28 -55z" />
-                                                    <path d="M1954 4659 c-44 -13 -66 -43 -105 -144 -60 -160 -170 -303 -317 -412 -97 -72 -106 -88 -99 -166 11 -108 53 -259 77 -279 48 -39 130 -9 130 48 0 12 -11 70 -25 130 -13 60 -23 109 -22 109 29 14 120 92 178 152 107 111 182 228 234 366 l18 47 538 0 c459 0 539 -2 539 -14 0 -35 114 -237 177 -315 59 -72 185 -189 237 -218 14 -8 13 -20 -9 -118 -31 -135 -31 -140 0 -170 32 -33 84 -34 112 -2 23 24 73 236 73 305 -1 53 -16 75 -95 130 -166 118 -277 262 -345 450 -14 38 -34 72 -52 87 l-30 25 -591 -1 c-326 0 -606 -5 -623 -10z" />
-                                                    <path d="M3000 4051 c-20 -5 -75 -81 -252 -346 -125 -187 -229 -344 -232 -350 -2 -5 -44 28 -92 76 -154 148 -181 169 -214 169 -42 0 -80 -39 -80 -81 0 -29 17 -49 143 -170 233 -224 249 -234 301 -186 14 12 138 192 275 400 218 327 251 383 251 416 0 55 -42 85 -100 72z" />
-                                                    <path d="M1644 3470 c-28 -11 -54 -48 -54 -75 0 -33 131 -289 204 -398 167 -249 383 -459 628 -608 114 -69 143 -76 200 -51 26 11 86 46 134 78 309 203 575 518 731 864 48 105 53 150 23 180 -24 24 -91 27 -110 5 -7 -8 -41 -74 -76 -146 -164 -336 -387 -593 -682 -783 l-72 -47 -61 36 c-155 95 -347 262 -463 404 -89 108 -179 252 -250 395 -58 116 -71 136 -98 145 -17 6 -31 11 -32 10 -1 0 -11 -4 -22 -9z" />
-                                                    <path d="M92 2569 c-28 -14 -51 -36 -67 -64 l-25 -42 0 -1022 c0 -1102 -3 -1047 52 -1098 54 -51 72 -53 445 -53 316 0 352 2 388 19 45 20 92 70 100 104 2 12 8 40 12 63 l8 41 460 -175 460 -176 110 -3 c99 -4 187 7 875 106 421 61 794 118 830 126 77 19 187 71 250 118 76 57 1055 942 1078 975 52 73 68 202 36 296 -22 64 -100 147 -166 177 -71 31 -183 32 -248 3 -25 -12 -269 -170 -543 -352 -399 -267 -503 -332 -529 -332 -18 0 -63 3 -99 6 l-67 7 -12 73 c-28 176 -154 322 -317 367 -35 10 -263 34 -578 61 -286 25 -543 50 -571 56 -54 11 -256 107 -413 195 -168 94 -325 147 -481 163 l-75 7 -6 122 c-8 147 -30 197 -102 232 -42 20 -58 21 -403 21 -345 0 -361 -1 -402 -21z m738 -158 c6 -12 10 -124 10 -294 0 -263 1 -275 20 -292 29 -26 85 -25 112 3 20 19 23 35 26 125 l4 103 68 -8 c112 -13 238 -55 360 -120 239 -127 377 -195 440 -217 54 -18 161 -30 619 -71 305 -28 569 -54 586 -60 56 -19 122 -67 154 -113 29 -42 69 -162 58 -174 -3 -2 -323 -24 -712 -48 -782 -49 -738 -49 -811 15 -57 50 -127 32 -140 -35 -12 -62 88 -151 196 -174 53 -11 256 -2 950 46 275 19 479 27 670 28 l275 0 510 342 c281 188 524 347 540 353 62 23 146 -14 180 -81 21 -39 19 -108 -4 -144 -29 -48 -1033 -946 -1098 -982 -80 -45 -159 -69 -288 -88 -1119 -163 -1505 -215 -1540 -209 -22 3 -236 81 -475 171 -239 91 -458 174 -487 185 l-52 19 -3 444 c-3 419 -4 444 -22 464 -24 26 -91 29 -118 4 -17 -15 -18 -46 -18 -565 0 -360 -4 -556 -10 -569 -10 -18 -25 -19 -335 -19 -310 0 -325 1 -335 19 -14 27 -14 1915 0 1942 10 18 25 19 335 19 310 0 325 -1 335 -19z" />
-                                                    <path d="M435 1114 c-91 -23 -160 -74 -197 -147 -46 -91 -30 -216 39 -296 98 -115 282 -123 391 -18 99 95 109 257 22 367 -51 65 -181 112 -255 94z m91 -170 c71 -34 85 -115 30 -170 -27 -27 -42 -34 -73 -34 -99 0 -147 115 -75 182 44 42 67 46 118 22z" />
+                                                </metadata>
+                                                <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                                                    fill="#000000" stroke="none">
+                                                    <path d="M1707 5106 c-65 -24 -128 -81 -165 -151 l-27 -50 -3 -588 -3 -587
+-32 17 c-18 9 -64 18 -107 21 -131 7 -241 -54 -305 -169 l-30 -54 -5 -921 -5
+-920 -66 -73 c-58 -63 -70 -71 -86 -63 -41 23 -146 34 -213 23 -280 -45 -429
+-339 -302 -599 21 -44 82 -112 285 -319 182 -184 267 -264 287 -268 32 -7 84
+15 94 40 19 51 11 63 -253 334 -142 146 -266 282 -277 301 -27 51 -25 162 3
+216 65 123 211 172 335 111 43 -21 130 -104 464 -444 226 -230 419 -433 428
+-451 80 -155 -46 -355 -223 -355 -69 0 -129 25 -194 81 -58 51 -87 53 -129 12
+-25 -26 -29 -36 -24 -63 7 -42 81 -108 165 -150 55 -27 78 -32 156 -35 70 -3
+106 0 146 13 116 37 199 111 253 224 28 60 31 75 31 161 -1 80 -5 105 -28 162
+-32 78 -31 81 40 149 l48 47 116 6 c359 19 682 213 848 508 l26 47 245 3 c230
+3 248 5 290 26 68 33 112 74 145 133 l30 54 3 408 c3 384 4 407 21 407 10 0
+46 14 80 31 162 81 213 301 101 440 l-31 39 35 50 c40 58 61 143 52 208 -7 52
+-39 129 -67 158 l-20 21 35 51 c40 61 61 144 51 211 -8 56 -39 128 -67 158
+l-21 23 21 23 c41 44 66 117 66 195 -1 63 -5 82 -35 139 -39 77 -86 118 -161
+144 l-53 18 -5 323 c-5 302 -6 326 -26 368 -28 60 -86 117 -148 146 l-51 24
+-537 0 -537 0 -15 -22 c-21 -30 -20 -81 2 -107 17 -20 23 -21 534 -23 506 -3
+517 -3 545 -24 44 -33 73 -82 73 -125 l0 -39 -921 0 -922 0 6 46 c6 54 30 91
+78 119 27 16 57 20 164 23 151 5 165 11 165 77 0 70 -12 75 -186 75 -98 -1
+-162 -5 -187 -14z m1803 -664 l0 -177 -61 -12 c-116 -22 -203 -100 -235 -210
+-28 -96 -3 -213 59 -280 l20 -23 -21 -23 c-31 -33 -63 -111 -69 -171 -7 -66
+16 -148 58 -205 31 -43 31 -43 11 -65 -85 -92 -92 -255 -17 -366 l34 -51 -33
+-44 c-83 -108 -69 -277 31 -380 38 -39 123 -85 158 -85 11 0 30 -3 43 -6 22
+-6 22 -8 22 -185 l0 -179 -705 0 -704 0 -11 43 c-63 245 -204 450 -377 548
+l-43 24 0 1013 0 1012 920 0 920 0 0 -178z m180 -361 c74 -39 98 -116 58 -186
+-34 -58 -75 -75 -183 -75 -101 0 -144 15 -179 63 -46 63 -15 171 58 203 49 21
+203 18 246 -5z m-1 -439 c52 -26 76 -65 76 -122 0 -57 -22 -93 -75 -122 -29
+-16 -51 -19 -135 -16 -84 3 -105 7 -131 25 -88 63 -79 187 17 235 48 25 200
+25 248 0z m-2269 -54 c26 -14 53 -37 65 -58 19 -34 20 -54 23 -515 1 -264 4
+-490 7 -502 3 -15 27 -34 73 -58 166 -87 286 -248 343 -460 17 -63 22 -108 22
+-210 0 -161 -21 -248 -94 -391 -49 -95 -51 -103 -38 -130 35 -73 105 -69 154
+8 l30 47 383 0 383 1 -22 -33 c-41 -57 -142 -158 -206 -203 -76 -55 -206 -116
+-298 -139 -45 -12 -116 -19 -200 -21 -71 -1 -134 -3 -139 -3 -5 -1 -46 -38
+-92 -83 l-84 -82 -349 355 -349 354 68 70 c37 39 73 80 79 92 8 15 11 287 11
+943 0 992 -2 947 52 997 50 47 111 54 178 21z m2281 -391 c96 -64 84 -199 -21
+-241 -58 -23 -183 -21 -238 4 -74 33 -101 129 -56 197 32 49 71 63 180 63 88
+0 105 -3 135 -23z m-4 -437 c67 -41 89 -114 53 -177 -36 -64 -69 -78 -185 -78
+-87 0 -105 3 -136 23 -71 44 -86 138 -32 203 36 43 53 48 168 48 82 1 106 -3
+132 -19z m-187 -1056 c0 -137 -13 -169 -84 -203 -41 -21 -55 -21 -698 -21
+l-655 0 14 53 c8 28 19 105 26 170 l11 117 693 0 693 0 0 -116z"/>
+                                                    <path d="M2073 4378 c-99 -91 -223 -237 -223 -262 0 -30 37 -74 65 -77 47 -7
+76 15 194 141 134 144 145 167 96 215 -38 38 -77 33 -132 -17z"/>
+                                                    <path d="M2407 4238 c-454 -467 -557 -577 -557 -597 0 -56 51 -99 102 -86 15
+4 138 122 310 298 420 431 438 451 438 487 0 42 -39 80 -82 80 -30 0 -51 -18
+-211 -182z"/>
+                                                    <path d="M1137 4533 c-41 -46 -26 -113 30 -134 74 -28 139 75 83 131 -26 26
+-90 27 -113 3z"/>
+                                                    <path d="M3896 4519 c-55 -43 -21 -139 50 -139 60 0 97 55 74 110 -21 50 -80
+64 -124 29z"/>
+                                                    <path d="M833 4255 c-73 -51 -5 -169 77 -135 36 15 50 37 50 78 0 58 -76 93
+-127 57z"/>
+                                                    <path d="M4207 4238 c-25 -20 -38 -64 -27 -92 21 -55 88 -69 133 -29 24 23 23
+87 -3 113 -23 23 -77 27 -103 8z"/>
+                                                    <path d="M593 3930 c-75 -30 -46 -150 36 -150 80 0 111 109 40 145 -32 17 -44
+18 -76 5z"/>
+                                                    <path d="M4484 3912 c-57 -8 -79 -97 -35 -133 53 -43 131 -11 131 54 0 58 -37
+88 -96 79z"/>
+                                                    <path d="M383 3534 c-21 -21 -24 -32 -20 -62 8 -49 29 -67 78 -67 49 0 79 30
+79 79 0 70 -86 101 -137 50z"/>
+                                                    <path d="M4660 3533 c-54 -20 -69 -92 -27 -131 43 -41 118 -21 131 34 16 63
+-44 119 -104 97z"/>
+                                                    <path d="M276 3139 c-35 -27 -36 -86 -3 -117 61 -57 159 10 127 87 -20 50 -80
+65 -124 30z"/>
+                                                    <path d="M4740 3110 c-22 -22 -26 -69 -10 -100 14 -26 73 -44 99 -31 27 15 51
+51 51 77 0 12 -9 33 -21 48 -26 33 -88 37 -119 6z"/>
+                                                    <path d="M236 2719 c-20 -16 -26 -29 -26 -59 0 -68 78 -104 131 -61 33 27 33
+95 0 122 -30 25 -72 24 -105 -2z"/>
+                                                    <path d="M4771 2684 c-28 -35 -26 -69 4 -99 52 -52 135 -21 135 50 0 48 -29
+75 -79 75 -31 0 -44 -6 -60 -26z"/>
+                                                    <path d="M270 2300 c-31 -31 -27 -93 6 -119 35 -27 67 -26 100 3 37 31 39 90
+5 117 -31 25 -86 24 -111 -1z"/>
+                                                    <path d="M4753 2290 c-47 -20 -57 -87 -18 -125 69 -70 180 29 118 104 -21 24
+-68 35 -100 21z"/>
+                                                    <path d="M385 1895 c-16 -15 -25 -36 -25 -55 0 -19 9 -40 25 -55 49 -50 135
+-15 135 55 0 41 -39 80 -80 80 -19 0 -40 -9 -55 -25z"/>
+                                                    <path d="M4639 1889 c-27 -10 -49 -46 -49 -78 0 -10 9 -30 21 -45 16 -20 29
+-26 59 -26 49 0 80 30 80 77 0 31 -28 73 -49 73 -5 0 -15 2 -23 4 -7 3 -25 0
+-39 -5z"/>
+                                                    <path d="M4421 1494 c-57 -73 16 -162 97 -120 49 25 57 82 17 121 -34 35 -86
+34 -114 -1z"/>
+                                                    <path d="M4173 1175 c-58 -41 -24 -144 48 -145 73 -1 109 95 53 139 -31 25
+-71 27 -101 6z"/>
+                                                    <path d="M3855 885 c-50 -49 -15 -135 55 -135 41 0 80 39 80 80 0 41 -39 80
+-80 80 -19 0 -40 -9 -55 -25z"/>
+                                                    <path d="M3491 664 c-25 -32 -27 -62 -5 -92 22 -32 57 -43 94 -31 35 13 50 35
+50 77 0 67 -97 99 -139 46z"/>
+                                                    <path d="M3124 536 c-78 -34 -49 -146 38 -146 67 0 100 74 56 124 -30 32 -56
+38 -94 22z"/>
+                                                    <path d="M2276 459 c-20 -16 -26 -29 -26 -58 0 -90 119 -114 149 -31 12 37 1
+72 -31 94 -30 22 -60 20 -92 -5z"/>
+                                                    <path d="M2692 454 c-16 -11 -22 -25 -22 -53 0 -53 27 -85 73 -85 51 0 77 27
+77 80 0 50 -25 74 -75 74 -17 0 -41 -7 -53 -16z"/>
                                                 </g>
                                             </svg>
 
                                         </article>
-                                        <h4 className='text-2xl py-2 text-center subtitulo-caracteristicas'>Seguridad informática</h4>
+                                        <h4 className='text-2xl py-2 text-center subtitulo-caracteristicas'>Insumos Telefonia</h4>
                                         <p className='text-sm parrafo-automatizado'>
                                             Vamos a implementar medidas para protegerla contra accesos no autorizados, pérdida de datos, ataques y vulnerabilidades.
                                         </p>
@@ -181,9 +367,9 @@ export const Inicio = () => {
 
                 {/* caracteristicas extensivas  */}
 
-                <section className='container-sector-mas-caracteristicas' >
+                <section className='container-sector-mas-caracteristicas' id='caracteristicasgenerales' >
                     <article className='subtitulo-mas-funcionalidades'>
-                        <h4 className='text-center py-2 subtitulo-mas-funcionalidades oscuro-logo' ><b>Características comerciales y de atención al cliente</b></h4>
+                        <h4 className='text-center py-2 subtitulo-mas-funcionalidades logo-oscuro'  ><b>Características comerciales y de atención al cliente</b></h4>
                         <p className='text-center parrafo-mas-funcionalidades'><strong>Tensiosa Sales</strong> es tu proximo proveedor de productos</p>
                     </article>
 
@@ -335,7 +521,7 @@ l-549 -551 -216 214 c-146 145 -230 220 -261 234 -241 115 -509 -49 -512 -313
 
                 <section id='preguntas-frecuentes'>
                     <article>
-                        <h4 className='text-center py-4 subtitulo-preguntas-frecuentes oscuro-logo'>Preguntas frecuentes (FAQ)</h4>
+                        <h4 className='text-center py-4 subtitulo-preguntas-frecuentes logo-oscuro'>Preguntas frecuentes (FAQ)</h4>
                     </article>
                     <section className='container-preguntas-frecuentes  '>
                         <article>
@@ -358,10 +544,9 @@ l-549 -551 -216 214 c-146 145 -230 220 -261 234 -241 115 -509 -49 -512 -313
                                     </svg>
                                 </article>
                                 <article className='item-info-svg'>
-                                    <h4 className='text-center subtitulo-preguntas'>¿Qué diferencia a su estudio contable de uno tradicional</h4>
+                                    <h4 className='text-center subtitulo-preguntas'>¿Cómo funciona Tensiora Sales?</h4>
                                     <p className='parrafo-preguntas-frecuentes'>
-                                        Utilizamos inteligencia artificial para automatizar cálculos, detectar errores y generar reportes más precisos y
-                                        rápidos, permitiéndote tomar mejores decisiones.
+                                       Somos distribuidores mayoristas de insumos en donde a través de nuestra plataforma web podes realizar pedidos a los distribuidores que trabajen con nosotros.
                                     </p>
                                 </article>
 
@@ -388,10 +573,9 @@ l-549 -551 -216 214 c-146 145 -230 220 -261 234 -241 115 -509 -49 -512 -313
                                     </svg>
                                 </article>
                                 <article className='item-info-svg'>
-                                    <h4 className='text-center subtitulo-preguntas'>¿La IA reemplaza al contador?</h4>
+                                    <h4 className='text-center subtitulo-preguntas'>¿Qué seguridad tengo con mis pedidos?</h4>
                                     <p className='parrafo-preguntas-frecuentes'>
-                                        No. La IA es una herramienta que potencia nuestro trabajo, pero el análisis, interpretación y asesoramiento
-                                        sigue siendo 100% humano y personalizado.
+                                       Tu pedido va a estar garantizado por la empresa fabricante o distribuidora del producto. 
                                     </p>
                                 </article>
                             </section>
@@ -448,7 +632,7 @@ l-549 -551 -216 214 c-146 145 -230 220 -261 234 -241 115 -509 -49 -512 -313
                                 <article className='item-info-svg'>
                                     <h4 className='text-center subtitulo-preguntas'>¿Pueden trabajar con empresas y autónomos?</h4>
                                     <p className='parrafo-preguntas-frecuentes'>
-                                        Sí. Ofrecemos soluciones adaptadas a PYMEs, profesionales independientes y emprendedores.
+                                        Sí distribuimos mercaderias comercios, kioscos y supermercados.
                                     </p>
                                 </article>
                             </section>
@@ -478,9 +662,9 @@ l-549 -551 -216 214 c-146 145 -230 220 -261 234 -241 115 -509 -49 -512 -313
                                     </svg>
                                 </article>
                                 <article className='item-info-svg'>
-                                    <h4 className='text-center subtitulo-preguntas'>¿Cómo puedo empezar a trabajar con ustedes?</h4>
+                                    <h4 className='text-center subtitulo-preguntas'>¿En que zonas distribuyen?</h4>
                                     <p className='parrafo-preguntas-frecuentes'>
-                                        Podés agendar una reunión virtual o presencial, enviarnos tu consulta por WhatsApp.
+                                       Actualmente estamos en zona norte del Gran Buenos Aires y Capital Federal.
                                     </p>
                                 </article>
                             </section>
@@ -537,8 +721,8 @@ l-549 -551 -216 214 c-146 145 -230 220 -261 234 -241 115 -509 -49 -512 -313
                             <section className='container-photo'>
                                 <img
                                     className='img'
-                                    src={logoCalcularAI}
-                                    alt="logo de Quantum System "
+                                    src={logoTensioraSales}
+                                    alt="logo de Tensiora Sales "
 
                                 />
                                 <section className="overlay">
@@ -552,13 +736,13 @@ l-549 -551 -216 214 c-146 145 -230 220 -261 234 -241 115 -509 -49 -512 -313
                         </article>
                         <article className='item-flex-right-informacion-empresa mx-2'>
                             <p>
-                                En <strong>Tensiora sales </strong> vamos a darte mas productos al mejor precios y calidad del mercado. 
+                                En <strong>Tensiora sales </strong> vamos a darte mas productos al mejor precios y calidad del mercado.
                                 Nuestro compromiso es ofrecer soluciones rápidas, eficientes y duraderas para que todo funcione como debe.
                             </p>
                             <p>
                                 Contamos con un equipo técnico capacitado y en constante formación, enfocado en brindar un servicio de calidad, seguro y personalizado, adaptado a las necesidades de cada cliente.
                             </p>
-                          
+
                             <h4 className='text-sm py-3'>Nuesta misión</h4>
                             <p>
                                 Ser un aliado confiable para nuestros clientes, brindando asesoramiento  profesional en comercio electronico que genere tranquilidad, cumplimiento y crecimiento sostenible.

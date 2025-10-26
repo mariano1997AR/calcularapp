@@ -20,7 +20,7 @@
 .hero {
     position: relative;
     height: 700px;
-    background: linear-gradient(90deg,rgba(219, 142, 48, 1) 0%, rgba(184, 150, 48, 1) 35%, rgba(158, 97, 0, 1) 100%);
+    background: linear-gradient(90deg,rgba(35, 32, 32,1)  0%, rgba(35, 32, 32,1)  35%, rgba(35, 32, 32,1) 100%);
     /* Degradado de fondo */
     display: flex;
 
@@ -108,7 +108,7 @@
 }
 
 .btn-iniciar{
-    background-color: #CFAB8D;
+    background-color: #2D3250;
     color: #FBFBFB;
     padding: 10px 20px;
     border: none;
@@ -119,14 +119,14 @@
 }
 
 .btn-iniciar:hover {
-    background-color: #4F200D;
+    background-color: #070F2B;
     color: #FBFBFB;
     transition: background-color 0.5s ease;
     border-radius: 10px;
 }
 
 .btn-registrar{
-    background-color: #CFAB8D;
+    background-color: #2D3250;
     color: #FBFBFB;
     padding: 10px 20px;
     border: none;
@@ -139,7 +139,7 @@
 }
 
 .btn-registrar:hover {
-    background-color: #4F200D;
+    background-color: #070F2B;
     color: #FBFBFB;
     transition: background-color 0.5s ease;
     border-radius: 10px;
@@ -199,7 +199,7 @@
 }
 
 .logo-oscuro{
-    color: #db8e30;
+    color: #2D3250;
 }
 
 

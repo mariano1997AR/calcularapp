@@ -29,7 +29,7 @@ const router = createBrowserRouter([
   },
 
 ],{
-  basename:'/tensiorasales/'
+  basename:'/calcularapp/'
 })
 
 createRoot(document.getElementById('root')!).render(
