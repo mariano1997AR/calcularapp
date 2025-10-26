@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmls="https://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://mariano1997ar.github.io/calcularai/</loc>
+        <lastmod>2025-08-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://mariano1997ar.github.io/calcularai/inicio</loc>
+        <lastmod>2025-06-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+
+</urlset>
