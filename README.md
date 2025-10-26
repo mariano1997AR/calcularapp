@@ -1,3 +1,3 @@
-# Calcular AI
+# Calcular App
 
-Sitio web principal de calcular AI en donde usamos inteligencia artificial. 
+Sitio principal de Calcular App en donde va a gestionar los usuarios por medio de esta landing page
