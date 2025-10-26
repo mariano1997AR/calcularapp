@@ -29,7 +29,7 @@ const router = createBrowserRouter([
   },
 
 ],{
-  basename:'/calcularapp/'
+  basename:'/'
 })
 
 createRoot(document.getElementById('root')!).render(
