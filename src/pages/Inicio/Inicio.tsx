@@ -11,11 +11,11 @@ import logoTensioraSales from '../../assets/presentacion/calcularApp.png';
 
 
 const frases = [
-    "Bienvenido a Tensiora Sales",
-    "Confia en Tensiora para tus ventas",
+    "Bienvenido a Calcular App",
+    "Confia en Calcular para gestionar tus ventas",
     "Con nuestro sistema de contrato, puede realizar tus pedidos",
     "Donde la contabilidad se encuentra con la tecnología",
-    "Simplificamos tus pedidos con tensiora",
+    "Simplificamos tus pedidos con calcular",
     "Trabajamos con transparencia, responsabilidad y pasión por lo que hacemos.",
 
 ]

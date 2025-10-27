@@ -13,7 +13,7 @@ export const NavbarPhone = () => {
                 <section className='logo-responsive '>
 
                     <Link className="a-logo mx-5 py-2 " to="/inicio">
-                        Tensiora<span className='logo-oscuro'> Sales</span>
+                        Calcular<span className='logo-oscuro'> App</span>
                     </Link>
                     {/* svg-logo */}
 
