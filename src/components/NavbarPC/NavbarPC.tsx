@@ -127,7 +127,7 @@ c-11 33 -9 36 49 106 32 40 64 82 70 94 17 30 15 129 -2 161 -17 32 -262 275
                 </div>
                 <div>
                     <ul className='submenu'>
-                        <li className='py-4'><a className='a-link' href="#insumos">Insumos</a></li>
+                        <li className='py-4'><a className='a-link' href="#especificaciones">Especificaciones</a></li>
                         <li className='py-4'><a className='a-link' href="#caracteristicasgenerales">Caracteristicas</a></li>
                         <li className='py-4'><a className='a-link' href="#preguntas-frecuentes">Preguntas</a></li>
                         <li className='mx-5'>
