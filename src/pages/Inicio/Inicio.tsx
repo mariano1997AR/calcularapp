@@ -529,9 +529,9 @@ l-549 -551 -216 214 c-146 145 -230 220 -261 234 -241 115 -509 -49 -512 -313
                                     </svg>
                                 </article>
                                 <article className='item-info-svg'>
-                                    <h4 className='text-center subtitulo-preguntas'>¿Cómo funciona Tensiora Sales?</h4>
+                                    <h4 className='text-center subtitulo-preguntas'>¿Cómo funciona Calcular App?</h4>
                                     <p className='parrafo-preguntas-frecuentes'>
-                                        Somos distribuidores mayoristas de insumos en donde a través de nuestra plataforma web podes realizar pedidos a los distribuidores que trabajen con nosotros.
+                                       Agendamos su contacto para darle nuestra demo de nuestro sistema a fin de que pueda experimentar con nuestra app y que pueda usarla. 
                                     </p>
                                 </article>
 
@@ -558,9 +558,9 @@ l-549 -551 -216 214 c-146 145 -230 220 -261 234 -241 115 -509 -49 -512 -313
                                     </svg>
                                 </article>
                                 <article className='item-info-svg'>
-                                    <h4 className='text-center subtitulo-preguntas'>¿Qué seguridad tengo con mis pedidos?</h4>
+                                    <h4 className='text-center subtitulo-preguntas'>¿Qué seguridad tengo con mis Datos?</h4>
                                     <p className='parrafo-preguntas-frecuentes'>
-                                        Tu pedido va a estar garantizado por la empresa fabricante o distribuidora del producto.
+                                        Tus datos van a estar seguros ya que van a estar cifrados bajo los estandares de cifrados internacionales. 
                                     </p>
                                 </article>
                             </section>
@@ -617,7 +617,7 @@ l-549 -551 -216 214 c-146 145 -230 220 -261 234 -241 115 -509 -49 -512 -313
                                 <article className='item-info-svg'>
                                     <h4 className='text-center subtitulo-preguntas'>¿Pueden trabajar con empresas y autónomos?</h4>
                                     <p className='parrafo-preguntas-frecuentes'>
-                                        Sí distribuimos mercaderias comercios, kioscos y supermercados.
+                                        Sí el sistema esta orientado a negocios que necesitan facturar con sus ventas y realizar pagos a proveedores. 
                                     </p>
                                 </article>
                             </section>
@@ -647,9 +647,9 @@ l-549 -551 -216 214 c-146 145 -230 220 -261 234 -241 115 -509 -49 -512 -313
                                     </svg>
                                 </article>
                                 <article className='item-info-svg'>
-                                    <h4 className='text-center subtitulo-preguntas'>¿En que zonas distribuyen?</h4>
+                                    <h4 className='text-center subtitulo-preguntas'>¿Qué medios de pago aceptan?</h4>
                                     <p className='parrafo-preguntas-frecuentes'>
-                                        Actualmente estamos en zona norte del Gran Buenos Aires y Capital Federal.
+                                        Aceptamos todos los medios de pagos detro de la Republica Argentina. 
                                     </p>
                                 </article>
                             </section>
@@ -674,9 +674,9 @@ l-549 -551 -216 214 c-146 145 -230 220 -261 234 -241 115 -509 -49 -512 -313
                                     </svg>
                                 </article>
                                 <article className='item-info-svg'>
-                                    <h4 className='text-center subtitulo-preguntas'>¿Trabajan de forma remota?</h4>
+                                    <h4 className='text-center subtitulo-preguntas'>¿Los pagos es por mensualidad o final?</h4>
                                     <p className='parrafo-preguntas-frecuentes'>
-                                        Sí. Gestionamos todo de manera digital para que no tengas que moverte de tu oficina u hogar.
+                                        Sí los pagos son mensuales pero tienen un periodo de prueba de 15 dias para poder realizar pruebas con tranquilidad. 
                                     </p>
                                 </article>
                             </section>
@@ -720,22 +720,22 @@ l-549 -551 -216 214 c-146 145 -230 220 -261 234 -241 115 -509 -49 -512 -313
                             </section>
                         </article>
                         <article className='item-flex-right-informacion-empresa mx-2'>
-                            <p>
-                                En <strong>Tensiora sales </strong> vamos a darte mas productos al mejor precios y calidad del mercado.
+                            <p className='mx-2'>
+                                En <strong>Calcular App </strong> vamos a gestionar sus ventas con nuestro sistema y ayudarle a poder controlar sus gastos. 
                                 Nuestro compromiso es ofrecer soluciones rápidas, eficientes y duraderas para que todo funcione como debe.
                             </p>
-                            <p>
+                            <p className='mx-2'>
                                 Contamos con un equipo técnico capacitado y en constante formación, enfocado en brindar un servicio de calidad, seguro y personalizado, adaptado a las necesidades de cada cliente.
                             </p>
 
-                            <h4 className='text-sm py-3'>Nuesta misión</h4>
-                            <p>
+                            <h4 className='text-sm py-3 mx-2'>Nuesta misión</h4>
+                            <p className='mx-2'>
                                 Ser un aliado confiable para nuestros clientes, brindando asesoramiento  profesional en comercio electronico que genere tranquilidad, cumplimiento y crecimiento sostenible.
                             </p>
 
-                            <h4 className=' py-3'>Nuestra visión</h4>
+                            <h4 className=' py-3 mx-2'>Nuestra visión</h4>
 
-                            <p>
+                            <p className='mx-2'>
                                 Ser una firma que impulse la transformación digital en la competencia de productos, ofreciendo servicios eficientes y adaptados a las necesidades del mercado moderno.
                             </p>
                         </article>
